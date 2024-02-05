@@ -28,7 +28,24 @@ namespace YoutubeSongDownloader
 
         private void ButtonDownload_Click(object sender, EventArgs e)
         {
+            ButtonDownload.Enabled = false;
+            bool result = false;
+            if(RadioButtonSongName.Checked)
+            {
+                result = SongDownloader.DownloadSongUsingSongName(userInput);
+            }
+            else
+            {
+                result = SongDownloader.DownloadSongUsingUrl(userInput);
+            }
+            if(result == true)
+            {
 
+            }
+            else
+            {
+
+            }
         }
 
         private void RadioButtonSongName_CheckedChanged(object sender, EventArgs e)

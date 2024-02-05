@@ -34,6 +34,9 @@
             ButtonDownload = new Button();
             RadioButtonUrl = new RadioButton();
             RadioButtonSongName = new RadioButton();
+            PanelLoading = new Panel();
+            PanelError = new Panel();
+            PanelResult = new Panel();
             SuspendLayout();
             // 
             // textBox1
@@ -87,11 +90,35 @@
             RadioButtonSongName.UseVisualStyleBackColor = true;
             RadioButtonSongName.CheckedChanged += RadioButtonSongName_CheckedChanged;
             // 
+            // PanelLoading
+            // 
+            PanelLoading.Location = new Point(12, 85);
+            PanelLoading.Name = "PanelLoading";
+            PanelLoading.Size = new Size(776, 353);
+            PanelLoading.TabIndex = 5;
+            // 
+            // PanelError
+            // 
+            PanelError.Location = new Point(12, 85);
+            PanelError.Name = "PanelError";
+            PanelError.Size = new Size(776, 353);
+            PanelError.TabIndex = 0;
+            // 
+            // PanelResult
+            // 
+            PanelResult.Location = new Point(12, 85);
+            PanelResult.Name = "PanelResult";
+            PanelResult.Size = new Size(776, 353);
+            PanelResult.TabIndex = 6;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(PanelResult);
+            Controls.Add(PanelError);
+            Controls.Add(PanelLoading);
             Controls.Add(RadioButtonSongName);
             Controls.Add(RadioButtonUrl);
             Controls.Add(ButtonDownload);
@@ -114,5 +141,8 @@
         private Button ButtonDownload;
         private RadioButton RadioButtonUrl;
         private RadioButton RadioButtonSongName;
+        private Panel PanelLoading;
+        private Panel PanelError;
+        private Panel PanelResult;
     }
 }
