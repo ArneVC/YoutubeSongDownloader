@@ -6,7 +6,7 @@ namespace YoutubeSongDownloader
     public partial class Form1 : Form
     {
         private String userInput = "";
-        private AppState appState = AppState.Default;
+        private AppState appState = AppState.Loading;
         public Form1()
         {
             InitializeComponent();
@@ -14,7 +14,7 @@ namespace YoutubeSongDownloader
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ChangeAppState(AppState.Default);
+            ChangeAppState(AppState.Loading);
             RadioButtonSongName.Checked = true;
             LabelUrl.Text = "Song Name:";
         }

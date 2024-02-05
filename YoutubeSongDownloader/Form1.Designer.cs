@@ -35,8 +35,11 @@
             RadioButtonUrl = new RadioButton();
             RadioButtonSongName = new RadioButton();
             PanelLoading = new Panel();
+            LoadingGifPictureBox = new PictureBox();
             PanelError = new Panel();
             PanelResult = new Panel();
+            PanelLoading.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -92,10 +95,22 @@
             // 
             // PanelLoading
             // 
+            PanelLoading.Controls.Add(LoadingGifPictureBox);
             PanelLoading.Location = new Point(12, 85);
             PanelLoading.Name = "PanelLoading";
             PanelLoading.Size = new Size(776, 353);
             PanelLoading.TabIndex = 5;
+            PanelLoading.UseWaitCursor = true;
+            // 
+            // LoadingGifPictureBox
+            // 
+            LoadingGifPictureBox.Image = (Image)resources.GetObject("LoadingGifPictureBox.Image");
+            LoadingGifPictureBox.Location = new Point(3, 3);
+            LoadingGifPictureBox.Name = "LoadingGifPictureBox";
+            LoadingGifPictureBox.Size = new Size(770, 347);
+            LoadingGifPictureBox.TabIndex = 0;
+            LoadingGifPictureBox.TabStop = false;
+            LoadingGifPictureBox.UseWaitCursor = true;
             // 
             // PanelError
             // 
@@ -116,20 +131,22 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(PanelResult);
-            Controls.Add(PanelError);
             Controls.Add(PanelLoading);
             Controls.Add(RadioButtonSongName);
             Controls.Add(RadioButtonUrl);
             Controls.Add(ButtonDownload);
             Controls.Add(LabelUrl);
             Controls.Add(textBox1);
+            Controls.Add(PanelResult);
+            Controls.Add(PanelError);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Form1";
             Text = "Youtube Song Downloader";
             Load += Form1_Load;
+            PanelLoading.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -144,5 +161,6 @@
         private Panel PanelLoading;
         private Panel PanelError;
         private Panel PanelResult;
+        private PictureBox LoadingGifPictureBox;
     }
 }
