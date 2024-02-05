@@ -41,7 +41,6 @@
             MaximizeBox = false;
             Name = "Form1";
             Text = "Form1";
-            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             ResumeLayout(false);
         }
