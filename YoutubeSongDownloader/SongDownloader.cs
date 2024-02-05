@@ -18,11 +18,11 @@ namespace YoutubeSongDownloader
             Video video = await youtube.Videos.GetAsync(url);
             return video;
         }
-        public static async Task<Video> DownloadSongUsingSongName(String songName)
+        public static async Task<Video> DownloadSongUsingSongName(string songName)
         {
             YoutubeClient youtube = new YoutubeClient();
-            IReadOnlyList<VideoSearchResult> searchResults = await youtube.Search.GetVideosAsync(songName);
-            VideoSearchResult videoSearchResult = searchResults.First();
+            IReadOnlyList<ISearchResult> searchResults = await youtube.Search.GetResultsAsync(songName);
+            ISearchResult videoSearchResult = searchResults.First();
             string videoUrl = videoSearchResult.Url;
             Video video = await youtube.Videos.GetAsync(videoUrl);
             return video;
