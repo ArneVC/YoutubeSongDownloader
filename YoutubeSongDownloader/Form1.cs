@@ -1,10 +1,12 @@
 using System.Diagnostics;
+using YoutubeSongDownloader.Data.Enums;
 
 namespace YoutubeSongDownloader
 {
     public partial class Form1 : Form
     {
         private String userInput = "";
+        private AppState appState = AppState.Default;
         public Form1()
         {
             InitializeComponent();
@@ -12,6 +14,7 @@ namespace YoutubeSongDownloader
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ChangeAppState(AppState.Default);
             RadioButtonSongName.Checked = true;
             LabelUrl.Text = "Song Name:";
         }
@@ -57,6 +60,33 @@ namespace YoutubeSongDownloader
             else
             {
                 LabelUrl.Text = "Youtube Url:";
+            }
+        }
+        private void ChangeAppState(AppState newState)
+        {
+            appState = newState;
+            switch (appState)
+            {
+                case AppState.Default:
+                    PanelLoading.Visible = false;
+                    PanelError.Visible = false;
+                    PanelResult.Visible = false;
+                    break;
+                case AppState.Loading:
+                    PanelLoading.Visible = true;
+                    PanelError.Visible = false;
+                    PanelResult.Visible = false;
+                    break;
+                case AppState.Error:
+                    PanelLoading.Visible = false;
+                    PanelError.Visible = true;
+                    PanelResult.Visible = false;
+                    break;
+                case AppState.Results:
+                    PanelLoading.Visible = false;
+                    PanelError.Visible = false;
+                    PanelResult.Visible = true;
+                    break;
             }
         }
     }
