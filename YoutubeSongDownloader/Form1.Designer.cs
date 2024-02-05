@@ -39,9 +39,20 @@
             PanelError = new Panel();
             ErrorLabel = new Label();
             PanelResult = new Panel();
+            AlbumTextBox = new TextBox();
+            label3 = new Label();
+            ArtistTextBox = new TextBox();
+            label2 = new Label();
+            TitleTextBox = new TextBox();
+            label1 = new Label();
+            FullAlbumCoverRadioButton = new RadioButton();
+            SquareAlbumCoverRadioButton = new RadioButton();
+            pictureBox1 = new PictureBox();
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             PanelError.SuspendLayout();
+            PanelResult.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -135,10 +146,97 @@
             // 
             // PanelResult
             // 
+            PanelResult.Controls.Add(AlbumTextBox);
+            PanelResult.Controls.Add(label3);
+            PanelResult.Controls.Add(ArtistTextBox);
+            PanelResult.Controls.Add(label2);
+            PanelResult.Controls.Add(TitleTextBox);
+            PanelResult.Controls.Add(label1);
+            PanelResult.Controls.Add(FullAlbumCoverRadioButton);
+            PanelResult.Controls.Add(SquareAlbumCoverRadioButton);
+            PanelResult.Controls.Add(pictureBox1);
             PanelResult.Location = new Point(12, 85);
             PanelResult.Name = "PanelResult";
             PanelResult.Size = new Size(776, 353);
             PanelResult.TabIndex = 6;
+            // 
+            // AlbumTextBox
+            // 
+            AlbumTextBox.Location = new Point(316, 109);
+            AlbumTextBox.Name = "AlbumTextBox";
+            AlbumTextBox.Size = new Size(457, 23);
+            AlbumTextBox.TabIndex = 8;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(316, 91);
+            label3.Name = "label3";
+            label3.Size = new Size(43, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Album";
+            // 
+            // ArtistTextBox
+            // 
+            ArtistTextBox.Location = new Point(316, 65);
+            ArtistTextBox.Name = "ArtistTextBox";
+            ArtistTextBox.Size = new Size(457, 23);
+            ArtistTextBox.TabIndex = 6;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(316, 47);
+            label2.Name = "label2";
+            label2.Size = new Size(48, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Artist(s)";
+            // 
+            // TitleTextBox
+            // 
+            TitleTextBox.Location = new Point(316, 21);
+            TitleTextBox.Name = "TitleTextBox";
+            TitleTextBox.Size = new Size(457, 23);
+            TitleTextBox.TabIndex = 4;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(316, 3);
+            label1.Name = "label1";
+            label1.Size = new Size(29, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Title";
+            // 
+            // FullAlbumCoverRadioButton
+            // 
+            FullAlbumCoverRadioButton.AutoSize = true;
+            FullAlbumCoverRadioButton.Location = new Point(122, 299);
+            FullAlbumCoverRadioButton.Name = "FullAlbumCoverRadioButton";
+            FullAlbumCoverRadioButton.Size = new Size(151, 19);
+            FullAlbumCoverRadioButton.TabIndex = 2;
+            FullAlbumCoverRadioButton.TabStop = true;
+            FullAlbumCoverRadioButton.Text = "Full Youtube Thumbnail";
+            FullAlbumCoverRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // SquareAlbumCoverRadioButton
+            // 
+            SquareAlbumCoverRadioButton.AutoSize = true;
+            SquareAlbumCoverRadioButton.Location = new Point(3, 299);
+            SquareAlbumCoverRadioButton.Name = "SquareAlbumCoverRadioButton";
+            SquareAlbumCoverRadioButton.Size = new Size(113, 19);
+            SquareAlbumCoverRadioButton.TabIndex = 1;
+            SquareAlbumCoverRadioButton.TabStop = true;
+            SquareAlbumCoverRadioButton.Text = "Fill Album Cover";
+            SquareAlbumCoverRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(290, 290);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -163,6 +261,9 @@
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).EndInit();
             PanelError.ResumeLayout(false);
             PanelError.PerformLayout();
+            PanelResult.ResumeLayout(false);
+            PanelResult.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -179,5 +280,14 @@
         private Panel PanelResult;
         private PictureBox LoadingGifPictureBox;
         private Label ErrorLabel;
+        private PictureBox pictureBox1;
+        private RadioButton FullAlbumCoverRadioButton;
+        private RadioButton SquareAlbumCoverRadioButton;
+        private TextBox ArtistTextBox;
+        private Label label2;
+        private TextBox TitleTextBox;
+        private Label label1;
+        private Label label3;
+        private TextBox AlbumTextBox;
     }
 }

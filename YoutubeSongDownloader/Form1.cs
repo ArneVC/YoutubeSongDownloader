@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using YoutubeExplode.Videos;
 using YoutubeSongDownloader.Data.Enums;
 
 namespace YoutubeSongDownloader
@@ -34,26 +35,30 @@ namespace YoutubeSongDownloader
             userInput = textBox1.Text;
         }
 
-        private void ButtonDownload_Click(object sender, EventArgs e)
+        private async void ButtonDownload_Click(object sender, EventArgs e)
         {
-            ButtonDownload.Enabled = false;
-            bool result = false;
+            SetRelevantControls(false);
+            ChangeAppState(AppState.Loading);
+            Video result = null;
             if (RadioButtonSongName.Checked)
             {
-                result = SongDownloader.DownloadSongUsingSongName(userInput);
+                result = await SongDownloader.DownloadSongUsingSongName(userInput);
             }
             else
             {
-                result = SongDownloader.DownloadSongUsingUrl(userInput);
+                result = await SongDownloader.DownloadSongUsingUrl(userInput);
             }
-            if (result == true)
+            ChangeAppState(AppState.Results);
+            if (result == null)
             {
 
             }
             else
             {
-
+                TitleTextBox.Text = result.Title;
+                ArtistTextBox.Text = result.Author.ChannelTitle;
             }
+            SetRelevantControls(true);
         }
 
         private void RadioButtonSongName_CheckedChanged(object sender, EventArgs e)
@@ -93,6 +98,11 @@ namespace YoutubeSongDownloader
                     PanelResult.Visible = true;
                     break;
             }
+        }
+        private void SetRelevantControls(bool state)
+        {
+            ButtonDownload.Enabled = state;
+            textBox1.Enabled = state;
         }
     }
 }
