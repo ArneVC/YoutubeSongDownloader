@@ -47,12 +47,12 @@
             label1 = new Label();
             FullAlbumCoverRadioButton = new RadioButton();
             SquareAlbumCoverRadioButton = new RadioButton();
-            pictureBox1 = new PictureBox();
+            AlbumCoverPictureBox = new PictureBox();
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             PanelError.SuspendLayout();
             PanelResult.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AlbumCoverPictureBox).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -154,7 +154,7 @@
             PanelResult.Controls.Add(label1);
             PanelResult.Controls.Add(FullAlbumCoverRadioButton);
             PanelResult.Controls.Add(SquareAlbumCoverRadioButton);
-            PanelResult.Controls.Add(pictureBox1);
+            PanelResult.Controls.Add(AlbumCoverPictureBox);
             PanelResult.Location = new Point(12, 85);
             PanelResult.Name = "PanelResult";
             PanelResult.Size = new Size(776, 353);
@@ -230,13 +230,13 @@
             SquareAlbumCoverRadioButton.Text = "Fill Album Cover";
             SquareAlbumCoverRadioButton.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // AlbumCoverPictureBox
             // 
-            pictureBox1.Location = new Point(3, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(290, 290);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            AlbumCoverPictureBox.Location = new Point(3, 3);
+            AlbumCoverPictureBox.Name = "AlbumCoverPictureBox";
+            AlbumCoverPictureBox.Size = new Size(290, 290);
+            AlbumCoverPictureBox.TabIndex = 0;
+            AlbumCoverPictureBox.TabStop = false;
             // 
             // Form1
             // 
@@ -263,7 +263,7 @@
             PanelError.PerformLayout();
             PanelResult.ResumeLayout(false);
             PanelResult.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AlbumCoverPictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -280,7 +280,7 @@
         private Panel PanelResult;
         private PictureBox LoadingGifPictureBox;
         private Label ErrorLabel;
-        private PictureBox pictureBox1;
+        private PictureBox AlbumCoverPictureBox;
         private RadioButton FullAlbumCoverRadioButton;
         private RadioButton SquareAlbumCoverRadioButton;
         private TextBox ArtistTextBox;
