@@ -103,6 +103,8 @@ namespace YoutubeSongDownloader
         {
             ButtonDownload.Enabled = state;
             textBox1.Enabled = state;
+            RadioButtonSongName.Enabled = state;
+            RadioButtonUrl.Enabled = state;
         }
     }
 }
