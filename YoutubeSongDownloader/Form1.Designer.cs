@@ -37,9 +37,11 @@
             PanelLoading = new Panel();
             LoadingGifPictureBox = new PictureBox();
             PanelError = new Panel();
+            ErrorLabel = new Label();
             PanelResult = new Panel();
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
+            PanelError.SuspendLayout();
             SuspendLayout();
             // 
             // textBox1
@@ -114,10 +116,22 @@
             // 
             // PanelError
             // 
+            PanelError.Controls.Add(ErrorLabel);
             PanelError.Location = new Point(12, 85);
             PanelError.Name = "PanelError";
             PanelError.Size = new Size(776, 353);
             PanelError.TabIndex = 0;
+            // 
+            // ErrorLabel
+            // 
+            ErrorLabel.AutoSize = true;
+            ErrorLabel.ForeColor = Color.Red;
+            ErrorLabel.Location = new Point(3, 3);
+            ErrorLabel.Name = "ErrorLabel";
+            ErrorLabel.Size = new Size(35, 15);
+            ErrorLabel.TabIndex = 0;
+            ErrorLabel.Text = "Error:";
+            ErrorLabel.Click += ErrorLabel_Click;
             // 
             // PanelResult
             // 
@@ -131,7 +145,6 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(PanelLoading);
             Controls.Add(RadioButtonSongName);
             Controls.Add(RadioButtonUrl);
             Controls.Add(ButtonDownload);
@@ -139,6 +152,7 @@
             Controls.Add(textBox1);
             Controls.Add(PanelResult);
             Controls.Add(PanelError);
+            Controls.Add(PanelLoading);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -147,6 +161,8 @@
             Load += Form1_Load;
             PanelLoading.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).EndInit();
+            PanelError.ResumeLayout(false);
+            PanelError.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -162,5 +178,6 @@
         private Panel PanelError;
         private Panel PanelResult;
         private PictureBox LoadingGifPictureBox;
+        private Label ErrorLabel;
     }
 }

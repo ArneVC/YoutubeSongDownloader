@@ -6,7 +6,7 @@ namespace YoutubeSongDownloader
     public partial class Form1 : Form
     {
         private String userInput = "";
-        private AppState appState = AppState.Loading;
+        private AppState appState = AppState.Default;
         public Form1()
         {
             InitializeComponent();
@@ -14,12 +14,17 @@ namespace YoutubeSongDownloader
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ChangeAppState(AppState.Loading);
+            ChangeAppState(AppState.Results);
             RadioButtonSongName.Checked = true;
             LabelUrl.Text = "Song Name:";
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ErrorLabel_Click(object sender, EventArgs e)
         {
 
         }
@@ -33,7 +38,7 @@ namespace YoutubeSongDownloader
         {
             ButtonDownload.Enabled = false;
             bool result = false;
-            if(RadioButtonSongName.Checked)
+            if (RadioButtonSongName.Checked)
             {
                 result = SongDownloader.DownloadSongUsingSongName(userInput);
             }
@@ -41,7 +46,7 @@ namespace YoutubeSongDownloader
             {
                 result = SongDownloader.DownloadSongUsingUrl(userInput);
             }
-            if(result == true)
+            if (result == true)
             {
 
             }
@@ -53,7 +58,7 @@ namespace YoutubeSongDownloader
 
         private void RadioButtonSongName_CheckedChanged(object sender, EventArgs e)
         {
-            if(RadioButtonSongName.Checked)
+            if (RadioButtonSongName.Checked)
             {
                 LabelUrl.Text = "Song Name:";
             }
