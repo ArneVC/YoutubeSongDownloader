@@ -15,7 +15,7 @@ namespace YoutubeSongDownloader
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ChangeAppState(AppState.Results);
+            ChangeAppState(AppState.Default);
             RadioButtonSongName.Checked = true;
             LabelUrl.Text = "Song Name:";
         }
@@ -57,10 +57,8 @@ namespace YoutubeSongDownloader
             {
                 TitleTextBox.Text = result.Title;
                 ArtistTextBox.Text = result.Author.ChannelTitle;
-                /*
                 Image albumCover = await ImageParser.GetImageFromUrl(result.Thumbnails.First().Url);
                 AlbumCoverPictureBox.Image = albumCover;
-                */
                 Debug.WriteLine(result.Thumbnails.First().Url);
             }
             SetRelevantControls(true);
