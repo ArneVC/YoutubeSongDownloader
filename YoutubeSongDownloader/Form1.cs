@@ -16,8 +16,8 @@ namespace YoutubeSongDownloader
         private void Form1_Load(object sender, EventArgs e)
         {
             ChangeAppState(AppState.Default);
-            RadioButtonSongName.Checked = true;
-            LabelUrl.Text = "Song Name:";
+            RadioButtonUrl.Checked = true;
+            LabelUrl.Text = "Youtube Url:";
         }
 
         private void label1_Click(object sender, EventArgs e)
