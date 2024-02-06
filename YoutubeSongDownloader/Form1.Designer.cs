@@ -232,6 +232,7 @@
             // 
             // AlbumCoverPictureBox
             // 
+            AlbumCoverPictureBox.BorderStyle = BorderStyle.FixedSingle;
             AlbumCoverPictureBox.Location = new Point(3, 3);
             AlbumCoverPictureBox.Name = "AlbumCoverPictureBox";
             AlbumCoverPictureBox.Size = new Size(290, 290);
