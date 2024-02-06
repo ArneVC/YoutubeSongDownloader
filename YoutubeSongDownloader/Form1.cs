@@ -18,6 +18,7 @@ namespace YoutubeSongDownloader
         private void Form1_Load(object sender, EventArgs e)
         {
             ChangeAppState(AppState.Default);
+            AlbumCoverPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
             RadioButtonUrl.Checked = true;
             LabelUrl.Text = "Youtube Url:";
         }
