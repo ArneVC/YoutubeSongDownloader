@@ -24,8 +24,23 @@ namespace YoutubeSongDownloader
                     resolution = thumbnail.Resolution;
                 }
             }
-            Debug.WriteLine("chosen resolution: " + resolution.ToString());
-            return null;
+            Debug.WriteLine(url);
+            try
+            {
+                using (WebClient webClient = new WebClient())
+                {
+                    byte[] imageData = webClient.DownloadData(url);
+                    using (MemoryStream ms = new MemoryStream(imageData))
+                    {
+                        Image image = Image.FromStream(ms);
+                        return image;
+                    }
+                }
+            }
+            catch
+            {
+                return null;
+            }                      
         }
     }
 }
