@@ -7,6 +7,7 @@ using YoutubeExplode;
 using YoutubeExplode.Common;
 using YoutubeExplode.Search;
 using YoutubeExplode.Videos;
+using YoutubeExplode.Videos.Streams;
 
 namespace YoutubeSongDownloader
 {
@@ -40,6 +41,27 @@ namespace YoutubeSongDownloader
             {
                 return null;
             }            
+        }
+        public static async Task<byte[]> ExtractAudioFromVideo(Video video)
+        {
+            var youtubeClient = new YoutubeClient();
+            try
+            {
+                var streamInfoSet = await youtubeClient.Videos.Streams.GetManifestAsync(video.Id);
+                var audioStreamInfo = streamInfoSet.GetAudioOnlyStreams().GetWithHighestBitrate();
+                using (var audioStream = await youtubeClient.Videos.Streams.GetAsync(audioStreamInfo))
+                {
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        await audioStream.CopyToAsync(memoryStream);
+                        return memoryStream.ToArray();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
     }
 }

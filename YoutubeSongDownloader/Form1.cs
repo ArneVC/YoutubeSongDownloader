@@ -87,7 +87,7 @@ namespace YoutubeSongDownloader
         }
         private void SquareAlbumCoverRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if(SquareAlbumCoverRadioButton.Checked == true)
+            if (SquareAlbumCoverRadioButton.Checked == true)
             {
                 AlbumCoverPictureBox.Image = fullAlbumCoverImage;
             }
@@ -95,6 +95,23 @@ namespace YoutubeSongDownloader
             {
                 AlbumCoverPictureBox.Image = fullThumbnailImage;
             }
+        }
+        private async void FinalDownloadButton_Click(object sender, EventArgs e)
+        {
+            Image finalAlbumCoverImage = null;
+            if(SquareAlbumCoverRadioButton.Checked == true)
+            {
+                finalAlbumCoverImage = fullAlbumCoverImage;
+            }
+            else
+            {
+                finalAlbumCoverImage = fullThumbnailImage;
+            }
+            byte[] audioStream = await SongDownloader.ExtractAudioFromVideo(selectedVideo);
+            if(audioStream != null)
+            {
+                SaveAudioToFile(audioStream, "test.mp3");
+            }            
         }
         private void ChangeAppState(AppState newState)
         {
@@ -129,6 +146,10 @@ namespace YoutubeSongDownloader
             textBox1.Enabled = state;
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
+        }
+        private static async Task SaveAudioToFile(byte[] audioBytes, string fileName)
+        {
+            await File.WriteAllBytesAsync(fileName, audioBytes);
         }
     }
 }

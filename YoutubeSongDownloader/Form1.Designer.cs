@@ -48,6 +48,7 @@
             FullAlbumCoverRadioButton = new RadioButton();
             SquareAlbumCoverRadioButton = new RadioButton();
             AlbumCoverPictureBox = new PictureBox();
+            FinalDownloadButton = new Button();
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             PanelError.SuspendLayout();
@@ -146,6 +147,7 @@
             // 
             // PanelResult
             // 
+            PanelResult.Controls.Add(FinalDownloadButton);
             PanelResult.Controls.Add(AlbumTextBox);
             PanelResult.Controls.Add(label3);
             PanelResult.Controls.Add(ArtistTextBox);
@@ -240,6 +242,16 @@
             AlbumCoverPictureBox.TabIndex = 0;
             AlbumCoverPictureBox.TabStop = false;
             // 
+            // FinalDownloadButton
+            // 
+            FinalDownloadButton.Location = new Point(316, 270);
+            FinalDownloadButton.Name = "FinalDownloadButton";
+            FinalDownloadButton.Size = new Size(457, 23);
+            FinalDownloadButton.TabIndex = 9;
+            FinalDownloadButton.Text = "Save";
+            FinalDownloadButton.UseVisualStyleBackColor = true;
+            FinalDownloadButton.Click += FinalDownloadButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -291,5 +303,6 @@
         private Label label1;
         private Label label3;
         private TextBox AlbumTextBox;
+        private Button FinalDownloadButton;
     }
 }
