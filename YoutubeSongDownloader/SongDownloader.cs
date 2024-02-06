@@ -28,11 +28,18 @@ namespace YoutubeSongDownloader
         public static async Task<Video> DownloadSongUsingSongName(string songName)
         {
             YoutubeClient youtube = new YoutubeClient();
-            IReadOnlyList<ISearchResult> searchResults = await youtube.Search.GetResultsAsync(songName);
-            ISearchResult videoSearchResult = searchResults.First();
-            string videoUrl = videoSearchResult.Url;
-            Video video = await youtube.Videos.GetAsync(videoUrl);
-            return video;
+            try
+            {
+                IReadOnlyList<ISearchResult> searchResults = await youtube.Search.GetResultsAsync(songName);
+                ISearchResult videoSearchResult = searchResults.First();
+                string videoUrl = videoSearchResult.Url;
+                Video video = await youtube.Videos.GetAsync(videoUrl);
+                return video;
+            }
+            catch
+            {
+                return null;
+            }            
         }
     }
 }
