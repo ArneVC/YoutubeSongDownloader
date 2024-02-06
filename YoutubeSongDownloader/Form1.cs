@@ -159,11 +159,17 @@ namespace YoutubeSongDownloader
             outputFile.Tag.Album = album;
             if (albumCover != null)
             {
+                Picture pic = new Picture();
+                pic.Type = PictureType.FrontCover;
+                pic.Description = "Cover";
+                pic.MimeType = System.Net.Mime.MediaTypeNames.Image.Jpeg;
                 MemoryStream ms = new MemoryStream();
                 albumCover.Save(ms, ImageFormat.Jpeg);
-                var picture = new Picture(new ByteVector(ms.ToArray()));
-                outputFile.Tag.Pictures = new IPicture[] { picture };
+                ms.Position = 0;
+                pic.Data = ByteVector.FromStream(ms);
+                outputFile.Tag.Pictures = new IPicture[] { pic };
             }
+            outputFile.Save();
         }
     }
 }
