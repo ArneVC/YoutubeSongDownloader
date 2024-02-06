@@ -39,6 +39,7 @@
             PanelError = new Panel();
             ErrorLabel = new Label();
             PanelResult = new Panel();
+            FinalDownloadButton = new Button();
             AlbumTextBox = new TextBox();
             label3 = new Label();
             ArtistTextBox = new TextBox();
@@ -48,7 +49,6 @@
             FullAlbumCoverRadioButton = new RadioButton();
             SquareAlbumCoverRadioButton = new RadioButton();
             AlbumCoverPictureBox = new PictureBox();
-            FinalDownloadButton = new Button();
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             PanelError.SuspendLayout();
@@ -162,6 +162,16 @@
             PanelResult.Size = new Size(776, 353);
             PanelResult.TabIndex = 6;
             // 
+            // FinalDownloadButton
+            // 
+            FinalDownloadButton.Location = new Point(316, 270);
+            FinalDownloadButton.Name = "FinalDownloadButton";
+            FinalDownloadButton.Size = new Size(457, 23);
+            FinalDownloadButton.TabIndex = 9;
+            FinalDownloadButton.Text = "Save";
+            FinalDownloadButton.UseVisualStyleBackColor = true;
+            FinalDownloadButton.Click += FinalDownloadButton_Click;
+            // 
             // AlbumTextBox
             // 
             AlbumTextBox.Location = new Point(316, 109);
@@ -174,9 +184,9 @@
             label3.AutoSize = true;
             label3.Location = new Point(316, 91);
             label3.Name = "label3";
-            label3.Size = new Size(43, 15);
+            label3.Size = new Size(98, 15);
             label3.TabIndex = 7;
-            label3.Text = "Album";
+            label3.Text = "Album (optional)";
             // 
             // ArtistTextBox
             // 
@@ -190,9 +200,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(316, 47);
             label2.Name = "label2";
-            label2.Size = new Size(48, 15);
+            label2.Size = new Size(138, 15);
             label2.TabIndex = 5;
-            label2.Text = "Artist(s)";
+            label2.Text = "Artist(s) (separated by ';')";
             // 
             // TitleTextBox
             // 
@@ -241,16 +251,6 @@
             AlbumCoverPictureBox.Size = new Size(290, 290);
             AlbumCoverPictureBox.TabIndex = 0;
             AlbumCoverPictureBox.TabStop = false;
-            // 
-            // FinalDownloadButton
-            // 
-            FinalDownloadButton.Location = new Point(316, 270);
-            FinalDownloadButton.Name = "FinalDownloadButton";
-            FinalDownloadButton.Size = new Size(457, 23);
-            FinalDownloadButton.TabIndex = 9;
-            FinalDownloadButton.Text = "Save";
-            FinalDownloadButton.UseVisualStyleBackColor = true;
-            FinalDownloadButton.Click += FinalDownloadButton_Click;
             // 
             // Form1
             // 

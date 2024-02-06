@@ -1,5 +1,9 @@
 using System.Diagnostics;
+using System.Drawing.Imaging;
+using System.Xml.Linq;
+using TagLib;
 using YoutubeExplode.Videos;
+using YoutubeSongDownloader.Data;
 using YoutubeSongDownloader.Data.Enums;
 
 namespace YoutubeSongDownloader
@@ -110,7 +114,7 @@ namespace YoutubeSongDownloader
             byte[] audioStream = await SongDownloader.ExtractAudioFromVideo(selectedVideo);
             if(audioStream != null)
             {
-                SaveAudioToFile(audioStream, "test.mp3");
+                SaveAudioToFile(audioStream, "test.mp3", finalAlbumCoverImage, "", [], "");
             }            
         }
         private void ChangeAppState(AppState newState)
@@ -147,9 +151,19 @@ namespace YoutubeSongDownloader
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
         }
-        private static async Task SaveAudioToFile(byte[] audioBytes, string fileName)
+        private static async Task SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album)
         {
-            await File.WriteAllBytesAsync(fileName, audioBytes);
+            var outputFile = TagLib.File.Create(new FileBytesAbstraction(fileName, audioBytes));
+            outputFile.Tag.Title = songTitle;
+            outputFile.Tag.AlbumArtists = authors;
+            outputFile.Tag.Album = album;
+            if (albumCover != null)
+            {
+                MemoryStream ms = new MemoryStream();
+                albumCover.Save(ms, ImageFormat.Jpeg);
+                var picture = new Picture(new ByteVector(ms.ToArray()));
+                outputFile.Tag.Pictures = new IPicture[] { picture };
+            }
         }
     }
 }
