@@ -43,6 +43,7 @@ namespace YoutubeSongDownloader
             SetRelevantControls(false);
             ChangeAppState(AppState.Loading);
             selectedVideo = null;
+            FullAlbumCoverRadioButton.Checked = true;
             if (RadioButtonSongName.Checked)
             {
                 selectedVideo = await SongDownloader.DownloadSongUsingSongName(userInput);
