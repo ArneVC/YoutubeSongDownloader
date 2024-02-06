@@ -8,6 +8,8 @@ namespace YoutubeSongDownloader
     {
         private String userInput = "";
         private AppState appState = AppState.Default;
+        private Video selectedVideo = null;
+        private Image selectedImage = null;
         public Form1()
         {
             InitializeComponent();
@@ -39,27 +41,27 @@ namespace YoutubeSongDownloader
         {
             SetRelevantControls(false);
             ChangeAppState(AppState.Loading);
-            Video result = null;
+            selectedVideo = null;
             if (RadioButtonSongName.Checked)
             {
-                result = await SongDownloader.DownloadSongUsingSongName(userInput);
+                selectedVideo = await SongDownloader.DownloadSongUsingSongName(userInput);
             }
             else
             {
-                result = await SongDownloader.DownloadSongUsingUrl(userInput);
+                selectedVideo = await SongDownloader.DownloadSongUsingUrl(userInput);
             }
-            if (result == null)
+            if (selectedVideo == null)
             {
                 ChangeAppState(AppState.Error);
             }
             else
             {
                 ChangeAppState(AppState.Results);
-                TitleTextBox.Text = result.Title;
-                ArtistTextBox.Text = result.Author.ChannelTitle;
-                Image albumCover = await ImageParser.GetImageFromUrl(result.Thumbnails.First().Url);
-                AlbumCoverPictureBox.Image = albumCover;
-                Debug.WriteLine(result.Thumbnails.First().Url);
+                TitleTextBox.Text = selectedVideo.Title;
+                ArtistTextBox.Text = selectedVideo.Author.ChannelTitle;
+                selectedImage = await ImageParser.GetImageFromUrl(selectedVideo.Thumbnails.First().Url);
+                AlbumCoverPictureBox.Image = selectedImage;
+                Debug.WriteLine(selectedVideo.Thumbnails.First().Url);
             }
             SetRelevantControls(true);
         }
