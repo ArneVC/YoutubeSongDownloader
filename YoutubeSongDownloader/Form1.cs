@@ -48,13 +48,13 @@ namespace YoutubeSongDownloader
             {
                 result = await SongDownloader.DownloadSongUsingUrl(userInput);
             }
-            ChangeAppState(AppState.Results);
             if (result == null)
             {
-
+                ChangeAppState(AppState.Error);
             }
             else
             {
+                ChangeAppState(AppState.Results);
                 TitleTextBox.Text = result.Title;
                 ArtistTextBox.Text = result.Author.ChannelTitle;
                 Image albumCover = await ImageParser.GetImageFromUrl(result.Thumbnails.First().Url);

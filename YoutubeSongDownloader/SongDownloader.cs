@@ -15,8 +15,15 @@ namespace YoutubeSongDownloader
         public static async Task<Video> DownloadSongUsingUrl(String url)
         {
             YoutubeClient youtube = new YoutubeClient();
-            Video video = await youtube.Videos.GetAsync(url);
-            return video;
+            try
+            {
+                Video video = await youtube.Videos.GetAsync(url);
+                return video;
+            }
+            catch
+            {
+                return null;
+            }            
         }
         public static async Task<Video> DownloadSongUsingSongName(string songName)
         {

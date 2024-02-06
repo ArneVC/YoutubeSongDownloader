@@ -86,7 +86,7 @@
             // RadioButtonUrl
             // 
             RadioButtonUrl.AutoSize = true;
-            RadioButtonUrl.Location = new Point(673, 5);
+            RadioButtonUrl.Location = new Point(513, 2);
             RadioButtonUrl.Name = "RadioButtonUrl";
             RadioButtonUrl.Size = new Size(115, 19);
             RadioButtonUrl.TabIndex = 3;
@@ -97,12 +97,12 @@
             // RadioButtonSongName
             // 
             RadioButtonSongName.AutoSize = true;
-            RadioButtonSongName.Location = new Point(558, 5);
+            RadioButtonSongName.Location = new Point(634, 2);
             RadioButtonSongName.Name = "RadioButtonSongName";
-            RadioButtonSongName.Size = new Size(109, 19);
+            RadioButtonSongName.Size = new Size(154, 19);
             RadioButtonSongName.TabIndex = 4;
             RadioButtonSongName.TabStop = true;
-            RadioButtonSongName.Text = "Use Song Name";
+            RadioButtonSongName.Text = "Use Song Name (slower)";
             RadioButtonSongName.UseVisualStyleBackColor = true;
             RadioButtonSongName.CheckedChanged += RadioButtonSongName_CheckedChanged;
             // 
