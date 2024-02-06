@@ -24,7 +24,6 @@ namespace YoutubeSongDownloader
                     resolution = thumbnail.Resolution;
                 }
             }
-            Debug.WriteLine(url);
             try
             {
                 using (WebClient webClient = new WebClient())
@@ -41,6 +40,26 @@ namespace YoutubeSongDownloader
             {
                 return null;
             }                      
+        }
+        public static Image GetFullAlbumCoverImageFromThumbnailImage(Image thumbnailImage)
+        {
+            if(thumbnailImage == null)
+            {
+                return null;
+            }
+            int thumbnailWidth = thumbnailImage.Width;
+            int thumbnailHeight = thumbnailImage.Height;
+            int squareSize = Math.Min(thumbnailWidth, thumbnailHeight);
+            int x = (thumbnailWidth - squareSize) / 2;
+            int y = (thumbnailHeight - squareSize) / 2;
+            Rectangle cropRectangle = new Rectangle(x, y, squareSize, squareSize);
+            Bitmap croppedImage = new Bitmap(squareSize, squareSize);
+            using (Graphics g = Graphics.FromImage(croppedImage))
+            {
+                g.DrawImage(thumbnailImage, new Rectangle(0, 0, squareSize, squareSize), cropRectangle, GraphicsUnit.Pixel);
+            }
+
+            return croppedImage;
         }
     }
 }

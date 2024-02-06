@@ -10,6 +10,8 @@ namespace YoutubeSongDownloader
         private AppState appState = AppState.Default;
         private Video selectedVideo = null;
         private Image selectedImage = null;
+        private Image fullThumbnailImage = null;
+        private Image fullAlbumCoverImage = null;
         public Form1()
         {
             InitializeComponent();
@@ -43,6 +45,9 @@ namespace YoutubeSongDownloader
             SetRelevantControls(false);
             ChangeAppState(AppState.Loading);
             selectedVideo = null;
+            selectedImage = null;
+            fullThumbnailImage = null;
+            fullAlbumCoverImage = null;
             FullAlbumCoverRadioButton.Checked = true;
             if (RadioButtonSongName.Checked)
             {
@@ -62,7 +67,9 @@ namespace YoutubeSongDownloader
                 TitleTextBox.Text = selectedVideo.Title;
                 ArtistTextBox.Text = selectedVideo.Author.ChannelTitle;
                 selectedImage = await ImageParser.GetImageFromThumbnailList(selectedVideo.Thumbnails);
-                AlbumCoverPictureBox.Image = selectedImage;
+                fullThumbnailImage = selectedImage;
+                fullAlbumCoverImage = ImageParser.GetFullAlbumCoverImageFromThumbnailImage(selectedImage);
+                AlbumCoverPictureBox.Image = fullThumbnailImage;
             }
             SetRelevantControls(true);
         }
@@ -76,6 +83,17 @@ namespace YoutubeSongDownloader
             else
             {
                 LabelUrl.Text = "Youtube Url:";
+            }
+        }
+        private void SquareAlbumCoverRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            if(SquareAlbumCoverRadioButton.Checked == true)
+            {
+                AlbumCoverPictureBox.Image = fullAlbumCoverImage;
+            }
+            else
+            {
+                AlbumCoverPictureBox.Image = fullThumbnailImage;
             }
         }
         private void ChangeAppState(AppState newState)

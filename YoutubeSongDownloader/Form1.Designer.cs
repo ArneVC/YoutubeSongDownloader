@@ -229,6 +229,7 @@
             SquareAlbumCoverRadioButton.TabStop = true;
             SquareAlbumCoverRadioButton.Text = "Fill Album Cover";
             SquareAlbumCoverRadioButton.UseVisualStyleBackColor = true;
+            SquareAlbumCoverRadioButton.CheckedChanged += SquareAlbumCoverRadioButton_CheckedChanged;
             // 
             // AlbumCoverPictureBox
             // 
