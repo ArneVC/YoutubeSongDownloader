@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -12,7 +14,7 @@ namespace YoutubeSongDownloader
 {
     public static class ImageParser
     {
-        public static async Task<Image> GetImageFromThumbnailList(IReadOnlyList<Thumbnail> thumbnails)
+        public static async Task<System.Drawing.Image> GetImageFromThumbnailList(IReadOnlyList<Thumbnail> thumbnails)
         {
             String url = "";
             Resolution resolution = new Resolution(0, 0);
@@ -31,8 +33,15 @@ namespace YoutubeSongDownloader
                     byte[] imageData = webClient.DownloadData(url);
                     using (MemoryStream ms = new MemoryStream(imageData))
                     {
-                        Image image = Image.FromStream(ms);
-                        return image;
+                        using (Image<Rgba32> image = SixLabors.ImageSharp.Image.Load<Rgba32>(ms))
+                        {
+                            using (MemoryStream convertedStream = new MemoryStream())
+                            {
+                                image.SaveAsPng(convertedStream);
+                                convertedStream.Seek(0, SeekOrigin.Begin);
+                                return System.Drawing.Image.FromStream(convertedStream);
+                            }
+                        }
                     }
                 }
             }
@@ -41,7 +50,7 @@ namespace YoutubeSongDownloader
                 return null;
             }                      
         }
-        public static Image GetFullAlbumCoverImageFromThumbnailImage(Image thumbnailImage)
+        public static System.Drawing.Image GetFullAlbumCoverImageFromThumbnailImage(System.Drawing.Image thumbnailImage)
         {
             if(thumbnailImage == null)
             {
@@ -52,11 +61,11 @@ namespace YoutubeSongDownloader
             int squareSize = Math.Min(thumbnailWidth, thumbnailHeight);
             int x = (thumbnailWidth - squareSize) / 2;
             int y = (thumbnailHeight - squareSize) / 2;
-            Rectangle cropRectangle = new Rectangle(x, y, squareSize, squareSize);
+            System.Drawing.Rectangle cropRectangle = new System.Drawing.Rectangle(x, y, squareSize, squareSize);
             Bitmap croppedImage = new Bitmap(squareSize, squareSize);
             using (Graphics g = Graphics.FromImage(croppedImage))
             {
-                g.DrawImage(thumbnailImage, new Rectangle(0, 0, squareSize, squareSize), cropRectangle, GraphicsUnit.Pixel);
+                g.DrawImage(thumbnailImage, new System.Drawing.Rectangle(0, 0, squareSize, squareSize), cropRectangle, GraphicsUnit.Pixel);
             }
 
             return croppedImage;
