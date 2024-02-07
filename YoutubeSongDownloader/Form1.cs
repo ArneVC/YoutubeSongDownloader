@@ -162,9 +162,9 @@ namespace YoutubeSongDownloader
                 Picture pic = new Picture();
                 pic.Type = PictureType.FrontCover;
                 pic.Description = "Cover";
-                pic.MimeType = System.Net.Mime.MediaTypeNames.Image.Jpeg;
+                pic.MimeType = System.Net.Mime.MediaTypeNames.Image.Bmp;
                 MemoryStream ms = new MemoryStream();
-                albumCover.Save(ms, ImageFormat.Jpeg);
+                albumCover.Save(ms, ImageFormat.Bmp);
                 ms.Position = 0;
                 pic.Data = ByteVector.FromStream(ms);
                 outputFile.Tag.Pictures = new IPicture[] { pic };
