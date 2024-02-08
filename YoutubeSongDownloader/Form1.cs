@@ -66,14 +66,14 @@ namespace YoutubeSongDownloader
                 ChangeAppState(AppState.Error);
             }
             else
-            {
-                ChangeAppState(AppState.Results);
+            {                
                 TitleTextBox.Text = selectedVideo.Title;
                 ArtistTextBox.Text = selectedVideo.Author.ChannelTitle;
                 selectedImage = await ImageParser.GetImageFromThumbnailList(selectedVideo.Thumbnails);
                 fullThumbnailImage = selectedImage;
                 fullAlbumCoverImage = ImageParser.GetFullAlbumCoverImageFromThumbnailImage(selectedImage);
                 AlbumCoverPictureBox.Image = fullThumbnailImage;
+                ChangeAppState(AppState.Results);
             }
             SetRelevantControls(true);
         }
