@@ -114,7 +114,7 @@ namespace YoutubeSongDownloader
             byte[] audioStream = await SongDownloader.ExtractAudioFromVideo(selectedVideo);
             if(audioStream != null)
             {
-                SaveAudioToFile(audioStream, "test.mp3", finalAlbumCoverImage, "", [], "");
+                SaveAudioToFile(audioStream, "test.mp3", finalAlbumCoverImage, "", [], "", "./");
             }            
         }
         private void ChangeAppState(AppState newState)
@@ -151,25 +151,38 @@ namespace YoutubeSongDownloader
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
         }
-        private static async Task SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album)
+        private static async Task SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
-            var outputFile = TagLib.File.Create(new FileBytesAbstraction(fileName, audioBytes));
-            outputFile.Tag.Title = songTitle;
-            outputFile.Tag.AlbumArtists = authors;
-            outputFile.Tag.Album = album;
-            if (albumCover != null)
+            Debug.WriteLine("download");
+            string outputPath = Path.Combine(outputFolder, fileName);
+            System.IO.File.WriteAllBytes(outputPath, audioBytes);
+            try
             {
-                Picture pic = new Picture();
-                pic.Type = PictureType.FrontCover;
-                pic.Description = "Cover";
-                pic.MimeType = System.Net.Mime.MediaTypeNames.Image.Bmp;
-                MemoryStream ms = new MemoryStream();
-                albumCover.Save(ms, ImageFormat.Bmp);
-                ms.Position = 0;
-                pic.Data = ByteVector.FromStream(ms);
-                outputFile.Tag.Pictures = new IPicture[] { pic };
+                //TagLib.File outputFile = TagLib.File.Create(new FileBytesAbstraction(fileName, audioBytes));
+                TagLib.File outputFile = TagLib.File.Create(outputPath);
+                outputFile.Tag.Title = songTitle;
+                outputFile.Tag.AlbumArtists = authors;
+                outputFile.Tag.Album = album;
+                if (albumCover != null)
+                {
+                    Picture pic = new Picture();
+                    pic.Type = PictureType.FrontCover;
+                    pic.Description = "Cover";
+                    pic.MimeType = System.Net.Mime.MediaTypeNames.Image.Bmp;
+                    MemoryStream ms = new MemoryStream();
+                    albumCover.Save(ms, ImageFormat.Bmp);
+                    ms.Position = 0;
+                    pic.Data = ByteVector.FromStream(ms);
+                    outputFile.Tag.Pictures = new IPicture[] { pic };
+                }
+                outputFile.Save();
             }
-            outputFile.Save();
+            catch (Exception ex)
+            {
+                Debug.WriteLine("shit went wrong");
+                Debug.WriteLine(ex.Message);
+                Debug.WriteLine(ex.StackTrace);
+            }
         }
     }
 }
