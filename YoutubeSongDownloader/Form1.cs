@@ -158,7 +158,6 @@ namespace YoutubeSongDownloader
             System.IO.File.WriteAllBytes(outputPath, audioBytes);
             try
             {
-                //TagLib.File outputFile = TagLib.File.Create(new FileBytesAbstraction(fileName, audioBytes));
                 TagLib.File outputFile = TagLib.File.Create(outputPath);
                 outputFile.Tag.Title = songTitle;
                 outputFile.Tag.AlbumArtists = authors;
