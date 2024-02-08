@@ -8,20 +8,25 @@ namespace YoutubeSongDownloader.Data
 {
     public class FileBytesAbstraction : TagLib.File.IFileAbstraction
     {
+        private readonly MemoryStream readStream;
+        private readonly MemoryStream writeStream;
+
         public FileBytesAbstraction(string name, byte[] bytes)
         {
             Name = name;
-
-            var stream = new MemoryStream(bytes);
-            ReadStream = stream;
-            WriteStream = stream;
+            readStream = new MemoryStream(bytes);
+            writeStream = new MemoryStream(bytes);
         }
+
         public void CloseStream(Stream stream)
         {
-            stream.Dispose();
+            // Only dispose the memory stream if it's not shared
+            if (stream == writeStream)
+                stream.Dispose();
         }
+
         public string Name { get; private set; }
-        public Stream ReadStream { get; private set; }
-        public Stream WriteStream { get; private set; }
+        public Stream ReadStream => readStream;
+        public Stream WriteStream => writeStream;
     }
 }
