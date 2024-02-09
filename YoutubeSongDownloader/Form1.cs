@@ -82,11 +82,11 @@ namespace YoutubeSongDownloader
         {
             if (RadioButtonSongName.Checked)
             {
-                LabelUrl.Text = "Song Name:";
+                LabelUrl.Text = "Song Name";
             }
             else
             {
-                LabelUrl.Text = "Youtube Url:";
+                LabelUrl.Text = "Youtube Url";
             }
         }
         private void SquareAlbumCoverRadioButton_CheckedChanged(object sender, EventArgs e)
@@ -112,9 +112,17 @@ namespace YoutubeSongDownloader
                 finalAlbumCoverImage = fullThumbnailImage;
             }
             byte[] audioStream = await SongDownloader.ExtractAudioFromVideo(selectedVideo);
-            if(audioStream != null)
+            if (audioStream != null)
             {
-                SaveAudioToFile(audioStream, "test.mp3", finalAlbumCoverImage, "", [], "", "./");
+                SaveAudioToFile(
+                    audioStream,
+                    ConvertSongTitleIntoFileName(TitleTextBox.Text),
+                    finalAlbumCoverImage,
+                    TitleTextBox.Text,
+                    convertArtistsStringIntoArrayOfArtists(ArtistTextBox.Text),
+                    AlbumTextBox.Text,
+                    "./"
+                );
             }            
         }
         private void ChangeAppState(AppState newState)
@@ -151,16 +159,15 @@ namespace YoutubeSongDownloader
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
         }
-        private static async Task SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
+        private static void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
-            Debug.WriteLine("download");
             string outputPath = Path.Combine(outputFolder, fileName);
             System.IO.File.WriteAllBytes(outputPath, audioBytes);
             try
             {
                 TagLib.File outputFile = TagLib.File.Create(outputPath);
                 outputFile.Tag.Title = songTitle;
-                outputFile.Tag.AlbumArtists = authors;
+                outputFile.Tag.Performers = authors;
                 outputFile.Tag.Album = album;
                 if (albumCover != null)
                 {
@@ -178,10 +185,28 @@ namespace YoutubeSongDownloader
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("shit went wrong");
                 Debug.WriteLine(ex.Message);
                 Debug.WriteLine(ex.StackTrace);
             }
+        }
+        private string ConvertSongTitleIntoFileName(string songTitle)
+        {
+            char[] charsNotAllowedInWindowsFileName = { '<', '>', ':', '"', '/', '\\', '|', '?', '*' };
+            string songTitleWithoutDissallowedChars = RemoveCharactersFromString(songTitle, charsNotAllowedInWindowsFileName);
+            string fileName = songTitleWithoutDissallowedChars.Replace(" ", "_");
+            return fileName + ".mp3";
+        }
+        public static string RemoveCharactersFromString(string input, char[] charactersToRemove)
+        {
+            foreach (var c in charactersToRemove)
+            {
+                input = input.Replace(c.ToString(), "");
+            }
+            return input;
+        }
+        private string[] convertArtistsStringIntoArrayOfArtists(string artists)
+        {
+            return artists.Split(';');
         }
     }
 }

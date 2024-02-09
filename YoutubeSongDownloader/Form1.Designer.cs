@@ -49,6 +49,7 @@
             FullAlbumCoverRadioButton = new RadioButton();
             SquareAlbumCoverRadioButton = new RadioButton();
             AlbumCoverPictureBox = new PictureBox();
+            DownloadStateLabel = new Label();
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             PanelError.SuspendLayout();
@@ -147,6 +148,7 @@
             // 
             // PanelResult
             // 
+            PanelResult.Controls.Add(DownloadStateLabel);
             PanelResult.Controls.Add(FinalDownloadButton);
             PanelResult.Controls.Add(AlbumTextBox);
             PanelResult.Controls.Add(label3);
@@ -252,6 +254,16 @@
             AlbumCoverPictureBox.TabIndex = 0;
             AlbumCoverPictureBox.TabStop = false;
             // 
+            // DownloadStateLabel
+            // 
+            DownloadStateLabel.AutoSize = true;
+            DownloadStateLabel.ForeColor = Color.Red;
+            DownloadStateLabel.Location = new Point(316, 252);
+            DownloadStateLabel.Name = "DownloadStateLabel";
+            DownloadStateLabel.Size = new Size(26, 15);
+            DownloadStateLabel.TabIndex = 10;
+            DownloadStateLabel.Text = "test";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -304,5 +316,6 @@
         private Label label3;
         private TextBox AlbumTextBox;
         private Button FinalDownloadButton;
+        private Label DownloadStateLabel;
     }
 }
