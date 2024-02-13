@@ -1,3 +1,4 @@
+using NAudio.Wave;
 using System.Diagnostics;
 using System.Drawing.Imaging;
 using System.Xml.Linq;
@@ -161,11 +162,12 @@ namespace YoutubeSongDownloader
         }
         private static void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
-            string outputPath = Path.Combine(outputFolder, fileName);
-            System.IO.File.WriteAllBytes(outputPath, audioBytes);
+            string outputPathWav = Path.Combine(outputFolder, $"{Path.GetFileNameWithoutExtension(fileName)}.wav");
+            string outputPathMp3 = Path.Combine(outputFolder, $"{Path.GetFileNameWithoutExtension(fileName)}.mp3");            
             try
             {
-                TagLib.File outputFile = TagLib.File.Create(outputPath, "audio/mpeg", ReadStyle.None);
+                System.IO.File.WriteAllBytes(outputPathWav, audioBytes);
+                TagLib.File outputFile = TagLib.File.Create(outputPathWav, "audio/mpeg", ReadStyle.None);
                 outputFile.Tag.Title = songTitle;
                 outputFile.Tag.Performers = authors;
                 outputFile.Tag.Album = album;
@@ -182,6 +184,14 @@ namespace YoutubeSongDownloader
                     outputFile.Tag.Pictures = new IPicture[] { pic };
                 }
                 outputFile.Save();
+                /*
+                using (var reader = new WaveFileReader(outputPathWav))
+                {
+                    WaveFormatConversionStream.CreatePcmStream(reader);
+                    WaveFileWriter.CreateWaveFile(outputPathMp3, reader);
+                }
+                System.IO.File.Delete(outputPathWav);
+                */
             }
             catch (Exception ex)
             {
