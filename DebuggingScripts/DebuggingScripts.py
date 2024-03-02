@@ -1,0 +1,4 @@
+from ConvertFileIntoByteArray import ConvertFileIntoByteAray
+
+
+ConvertFileIntoByteAray.run()
