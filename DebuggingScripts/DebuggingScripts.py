@@ -1,4 +1,4 @@
-from ConvertFileIntoByteArray import ConvertFileIntoByteAray
+from ConvertFileIntoByteArray import ConvertFileIntoByteArray
 
-
-ConvertFileIntoByteAray.run()
+converter = ConvertFileIntoByteArray()
+converter.run()
