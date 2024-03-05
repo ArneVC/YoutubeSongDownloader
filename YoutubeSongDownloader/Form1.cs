@@ -114,7 +114,7 @@ namespace YoutubeSongDownloader
                 finalAlbumCoverImage = fullThumbnailImage;
             }
             byte[] audioStream = await SongDownloader.ExtractAudioFromVideo(selectedVideo);
-            if (audioStream != null)
+            if (audioStream.Length > 0)
             {
                 SaveAudioToFile(
                     audioStream,
