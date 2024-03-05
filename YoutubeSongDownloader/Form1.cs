@@ -6,11 +6,13 @@ using TagLib;
 using YoutubeExplode.Videos;
 using YoutubeSongDownloader.Data;
 using YoutubeSongDownloader.Data.Enums;
+using static System.Windows.Forms.DataFormats;
 
 namespace YoutubeSongDownloader
 {
     public partial class Form1 : Form
     {
+        private static readonly string FfmpegPath = "ffmpeg.exe";
         private String userInput = "";
         private AppState appState = AppState.Default;
         private Video selectedVideo = null;
@@ -163,15 +165,22 @@ namespace YoutubeSongDownloader
         private static void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
             string outputPathWav = Path.Combine(outputFolder, $"{Path.GetFileNameWithoutExtension(fileName)}.mp3");
+            string tempWavPath = Path.GetTempFileName();
+
             try
             {
-                System.IO.File.WriteAllBytes(outputPathWav, audioBytes);
+                //save temp wav file
+                System.IO.File.WriteAllBytes(tempWavPath, audioBytes);
+                //convert to mp3
+                var ffMpeg = new NReco.VideoConverter.FFMpegConverter();
+                ffMpeg.ConvertMedia(tempWavPath, outputPathWav, "mp3");
+                //tag
                 TagLib.File outputFile = TagLib.File.Create(outputPathWav, "audio/mpeg", ReadStyle.None);
                 outputFile.Tag.Title = songTitle;
-                if(authors.Length > 0)
+                if (authors.Length > 0)
                 {
                     outputFile.Tag.Performers = authors;
-                }                
+                }
                 outputFile.Tag.Album = album;
                 if (albumCover != null)
                 {
@@ -191,6 +200,14 @@ namespace YoutubeSongDownloader
             {
                 Debug.WriteLine(ex.Message);
                 Debug.WriteLine(ex.StackTrace);
+            }
+            finally
+            {
+                //remove temp wav file
+                if (System.IO.File.Exists(tempWavPath))
+                {
+                    System.IO.File.Delete(tempWavPath);
+                }
             }
         }
         private string ConvertSongTitleIntoFileName(string songTitle)
