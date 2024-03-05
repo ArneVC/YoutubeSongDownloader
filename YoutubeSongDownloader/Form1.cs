@@ -14,10 +14,10 @@ namespace YoutubeSongDownloader
     {
         private String userInput = "";
         private AppState appState = AppState.Default;
-        private Video selectedVideo = null;
-        private Image selectedImage = null;
-        private Image fullThumbnailImage = null;
-        private Image fullAlbumCoverImage = null;
+        private Video? selectedVideo = null;
+        private Image? selectedImage = null;
+        private Image? fullThumbnailImage = null;
+        private Image? fullAlbumCoverImage = null;
         public Form1()
         {
             InitializeComponent();
@@ -104,7 +104,7 @@ namespace YoutubeSongDownloader
         }
         private async void FinalDownloadButton_Click(object sender, EventArgs e)
         {
-            Image finalAlbumCoverImage = null;
+            Image? finalAlbumCoverImage = null;
             if(SquareAlbumCoverRadioButton.Checked == true)
             {
                 finalAlbumCoverImage = fullAlbumCoverImage;
