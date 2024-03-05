@@ -12,7 +12,6 @@ namespace YoutubeSongDownloader
 {
     public partial class Form1 : Form
     {
-        private static readonly string FfmpegPath = "ffmpeg.exe";
         private String userInput = "";
         private AppState appState = AppState.Default;
         private Video selectedVideo = null;
