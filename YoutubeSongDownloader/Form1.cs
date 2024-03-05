@@ -186,7 +186,6 @@ namespace YoutubeSongDownloader
                 {
                     Picture pic = new Picture();
                     pic.Type = PictureType.FrontCover;
-                    pic.Description = "Front Cover";
                     pic.MimeType = System.Net.Mime.MediaTypeNames.Image.Bmp;
                     MemoryStream ms = new MemoryStream();
                     albumCover.Save(ms, ImageFormat.Bmp);
