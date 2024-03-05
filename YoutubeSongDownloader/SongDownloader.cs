@@ -58,7 +58,7 @@ namespace YoutubeSongDownloader
                     }
                 }
             }
-            catch ()
+            catch (Exception ex)
             {
                 return null;
             }
