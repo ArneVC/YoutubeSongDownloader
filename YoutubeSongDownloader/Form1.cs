@@ -76,6 +76,7 @@ namespace YoutubeSongDownloader
                 fullAlbumCoverImage = ImageParser.GetFullAlbumCoverImageFromThumbnailImage(selectedImage);
                 AlbumCoverPictureBox.Image = fullThumbnailImage;
                 ChangeAppState(AppState.Results);
+                DownloadStateLabel.Text = "";
             }
             SetRelevantControls(true);
         }
