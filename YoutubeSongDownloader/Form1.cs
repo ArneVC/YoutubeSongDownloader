@@ -104,6 +104,8 @@ namespace YoutubeSongDownloader
         }
         private async void FinalDownloadButton_Click(object sender, EventArgs e)
         {
+            DownloadStateLabel.Text = "downloading...";
+            DownloadStateLabel.ForeColor = Color.Orange;
             Image? finalAlbumCoverImage = null;
             if(SquareAlbumCoverRadioButton.Checked == true)
             {
@@ -125,7 +127,7 @@ namespace YoutubeSongDownloader
                     AlbumTextBox.Text,
                     "./"
                 );
-            }            
+            }
         }
         private void ChangeAppState(AppState newState)
         {
@@ -161,7 +163,7 @@ namespace YoutubeSongDownloader
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
         }
-        private static void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
+        private void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
             string outputPathWav = Path.Combine(outputFolder, $"{Path.GetFileNameWithoutExtension(fileName)}.mp3");
             string tempWavPath = Path.GetTempFileName();
@@ -193,11 +195,15 @@ namespace YoutubeSongDownloader
                     outputFile.Tag.Pictures = new IPicture[] { pic };
                 }
                 outputFile.Save();
+                DownloadStateLabel.Text = "downloaded";
+                DownloadStateLabel.ForeColor = Color.Green;
             }
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
                 Debug.WriteLine(ex.StackTrace);
+                DownloadStateLabel.Text = "download error";
+                DownloadStateLabel.ForeColor = Color.Red;
             }
             finally
             {
