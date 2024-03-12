@@ -28,6 +28,7 @@ namespace YoutubeSongDownloader
                 MessageBox.Show("Config file error!\nPlease fix or delete config file");
             }
         }
+        //TODO: refactor into config unility class (changing config in other classes)
         private static void CreateConfigFileIfItDoesntExist()
         {
             if(!File.Exists(configFilePath))
