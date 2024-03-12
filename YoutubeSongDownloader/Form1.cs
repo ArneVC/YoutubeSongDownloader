@@ -13,6 +13,7 @@ namespace YoutubeSongDownloader
     public partial class Form1 : Form
     {
         private String userInput = "";
+        private string outputFolderPath = "./";
         private AppState appState = AppState.Default;
         private Video? selectedVideo = null;
         private Image? selectedImage = null;
@@ -126,7 +127,7 @@ namespace YoutubeSongDownloader
                     TitleTextBox.Text,
                     convertArtistsStringIntoArrayOfArtists(ArtistTextBox.Text),
                     AlbumTextBox.Text,
-                    "./"
+                    outputFolderPath
                 );
             }
         }
