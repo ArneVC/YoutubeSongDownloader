@@ -9,6 +9,10 @@ namespace YoutubeSongDownloader.Data
     public class ProgramConfig
     {
         public string outputFolderPath { get; set; }
+        public ProgramConfig(string outputFolder)
+        {
+            outputFolderPath = outputFolder;
+        }
         public override string ToString()
         {
             return "ProgramConfig(outputFolderPath" + outputFolderPath + ")";
