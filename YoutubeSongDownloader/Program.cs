@@ -1,4 +1,7 @@
+using Newtonsoft.Json;
 using System.Diagnostics;
+using System.Windows.Forms;
+using YoutubeSongDownloader.Data;
 
 namespace YoutubeSongDownloader
 {
@@ -14,15 +17,34 @@ namespace YoutubeSongDownloader
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             CreateConfigFileIfItDoesntExist();
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            ProgramConfig configToInit = ReadConfigFile();
+            if(configToInit != null)
+            {
+                ApplicationConfiguration.Initialize();
+                Application.Run(new Form1());
+            }
+            else
+            {
+                MessageBox.Show("Config file error!\nPlease fix or delete config file");
+            }
         }
-        static void CreateConfigFileIfItDoesntExist()
+        private static void CreateConfigFileIfItDoesntExist()
         {
             if(!File.Exists(configFilePath))
             {
-                File.Create("config.json").Dispose();
+                using (StreamWriter writer = File.CreateText(configFilePath))
+                {
+                    ProgramConfig defaultConfig = new ProgramConfig(KnownFolders.GetPath(KnownFolder.Downloads));
+                    string json = JsonConvert.SerializeObject(defaultConfig);
+                    writer.Write(json);
+                }
             }
+        }
+        private static ProgramConfig ReadConfigFile()
+        {
+            string json = File.ReadAllText(configFilePath);
+            ProgramConfig savedConfig = JsonConvert.DeserializeObject<ProgramConfig>(json);
+            return savedConfig;
         }
     }
 }
