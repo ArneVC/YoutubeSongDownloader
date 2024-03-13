@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YoutubeSongDownloader.Data
+namespace YoutubeSongDownloader.Data.Config
 {
     public class ProgramConfig
     {

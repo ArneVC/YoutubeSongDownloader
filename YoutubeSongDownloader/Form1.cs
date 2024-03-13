@@ -4,7 +4,7 @@ using System.Drawing.Imaging;
 using System.Xml.Linq;
 using TagLib;
 using YoutubeExplode.Videos;
-using YoutubeSongDownloader.Data;
+using YoutubeSongDownloader.Data.Config;
 using YoutubeSongDownloader.Data.Enums;
 using static System.Windows.Forms.DataFormats;
 

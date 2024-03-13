@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YoutubeSongDownloader.Data
+namespace YoutubeSongDownloader.Data.Config
 {
     //https://stackoverflow.com/a/21953690/18462267
     public enum KnownFolder

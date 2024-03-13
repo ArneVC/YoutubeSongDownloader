@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System.Windows.Forms;
-using YoutubeSongDownloader.Data;
+using YoutubeSongDownloader.Data.Config;
 
 namespace YoutubeSongDownloader
 {
