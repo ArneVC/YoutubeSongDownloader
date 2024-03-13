@@ -15,7 +15,7 @@ namespace YoutubeSongDownloader.Data
         }
         public override string ToString()
         {
-            return "ProgramConfig(outputFolderPath" + outputFolderPath + ")";
+            return "ProgramConfig(outputFolderPath: " + outputFolderPath + ")";
         }
     }
 }
