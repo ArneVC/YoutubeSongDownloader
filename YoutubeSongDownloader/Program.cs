@@ -14,21 +14,20 @@ namespace YoutubeSongDownloader
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             CreateConfigFileIfItDoesntExist();
             ProgramConfig configToInit = ReadConfigFile();
             if(configToInit != null)
             {
+                Debug.WriteLine(configToInit.ToString());
                 ApplicationConfiguration.Initialize();
-                Application.Run(new Form1());
+                Application.Run(new Form1(configToInit));
             }
             else
             {
                 MessageBox.Show("Config file error!\nPlease fix or delete config file");
             }
         }
-        //TODO: refactor into config unility class (changing config in other classes)
+        //TODO: refactor into config utility class (changing config in other classes)
         private static void CreateConfigFileIfItDoesntExist()
         {
             if(!File.Exists(configFilePath))

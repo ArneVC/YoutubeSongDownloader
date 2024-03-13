@@ -19,8 +19,9 @@ namespace YoutubeSongDownloader
         private Image? selectedImage = null;
         private Image? fullThumbnailImage = null;
         private Image? fullAlbumCoverImage = null;
-        public Form1()
+        public Form1(ProgramConfig config)
         {
+            this.outputFolderPath = config.outputFolderPath;
             InitializeComponent();
         }
 
