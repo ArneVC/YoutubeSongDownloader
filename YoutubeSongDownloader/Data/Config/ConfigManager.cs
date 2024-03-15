@@ -28,5 +28,14 @@ namespace YoutubeSongDownloader.Data.Config
             ProgramConfig savedConfig = JsonConvert.DeserializeObject<ProgramConfig>(json);
             return savedConfig;
         }
+        public static string ChangeOutPutFolderFilePath(string newFilePath)
+        {
+            ProgramConfig currentConfig = ReadConfigFile();
+            currentConfig.outputFolderPath = newFilePath;
+            string json = JsonConvert.SerializeObject(currentConfig);
+            CreateConfigFileIfItDoesntExist();
+            File.WriteAllText(configFilePath, json);
+            return newFilePath;
+        }
     }
 }

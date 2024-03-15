@@ -103,7 +103,7 @@ namespace YoutubeSongDownloader
 
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
                 {
-                    Debug.WriteLine(fbd.SelectedPath);
+                    outputFolderPath = ConfigManager.ChangeOutPutFolderFilePath(fbd.SelectedPath);
                 }
             }
         }
