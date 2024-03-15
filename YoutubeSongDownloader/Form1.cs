@@ -120,6 +120,7 @@ namespace YoutubeSongDownloader
         }
         private async void FinalDownloadButton_Click(object sender, EventArgs e)
         {
+            SetRelevantControls(false);
             DownloadStateLabel.Text = "downloading...";
             DownloadStateLabel.ForeColor = Color.Orange;
             Image? finalAlbumCoverImage = null;
@@ -144,6 +145,7 @@ namespace YoutubeSongDownloader
                     outputFolderPath
                 );
             }
+            SetRelevantControls(true);
         }
         private void ChangeAppState(AppState newState)
         {
@@ -179,6 +181,12 @@ namespace YoutubeSongDownloader
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
             FolderSelectButton.Enabled = state;
+            TitleTextBox.Enabled = state;
+            ArtistTextBox.Enabled = state;
+            AlbumTextBox.Enabled = state;
+            FinalDownloadButton.Enabled = state;
+            SquareAlbumCoverRadioButton.Enabled = state;
+            FullAlbumCoverRadioButton.Enabled = state;
         }
         private void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
