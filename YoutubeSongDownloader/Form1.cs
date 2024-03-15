@@ -132,10 +132,10 @@ namespace YoutubeSongDownloader
             {
                 finalAlbumCoverImage = fullThumbnailImage;
             }
-            byte[] audioStream = await SongDownloader.ExtractAudioFromVideo(selectedVideo);
+            byte[] audioStream = await Task.Run(() => SongDownloader.ExtractAudioFromVideo(selectedVideo));
             if (audioStream.Length > 0)
             {
-                SaveAudioToFile(
+                await Task.Run(() => SaveAudioToFile(
                     audioStream,
                     ConvertSongTitleIntoFileName(TitleTextBox.Text),
                     finalAlbumCoverImage,
@@ -143,10 +143,11 @@ namespace YoutubeSongDownloader
                     convertArtistsStringIntoArrayOfArtists(ArtistTextBox.Text),
                     AlbumTextBox.Text,
                     outputFolderPath
-                );
+                ));
             }
             SetRelevantControls(true);
         }
+
         private void ChangeAppState(AppState newState)
         {
             appState = newState;
@@ -192,7 +193,6 @@ namespace YoutubeSongDownloader
         {
             string outputPathWav = Path.Combine(outputFolder, $"{Path.GetFileNameWithoutExtension(fileName)}.mp3");
             string tempWavPath = Path.GetTempFileName();
-
             try
             {
                 //save temp wav file
@@ -220,15 +220,17 @@ namespace YoutubeSongDownloader
                     outputFile.Tag.Pictures = new IPicture[] { pic };
                 }
                 outputFile.Save();
-                DownloadStateLabel.Text = "downloaded";
-                DownloadStateLabel.ForeColor = Color.Green;
+                DownloadStateLabel.Invoke((MethodInvoker)(() => {
+                    DownloadStateLabel.Text = "downloaded";
+                    DownloadStateLabel.ForeColor = Color.Green;
+                }));
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex.Message);
-                Debug.WriteLine(ex.StackTrace);
-                DownloadStateLabel.Text = "download error";
-                DownloadStateLabel.ForeColor = Color.Red;
+                DownloadStateLabel.Invoke((MethodInvoker)(() => {
+                    DownloadStateLabel.Text = "download error";
+                    DownloadStateLabel.ForeColor = Color.Red;
+                }));
             }
             finally
             {
@@ -239,6 +241,7 @@ namespace YoutubeSongDownloader
                 }
             }
         }
+
         private string ConvertSongTitleIntoFileName(string songTitle)
         {
             char[] charsNotAllowedInWindowsFileName = { '<', '>', ':', '"', '/', '\\', '|', '?', '*' };
