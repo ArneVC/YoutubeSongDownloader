@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="Setup" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="6def6eab-c8c4-4fad-a7ec-13a5a0e882fb">
-		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+  <Product Id="*" Name="Setup" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="6def6eab-c8c4-4fad-a7ec-13a5a0e882fb">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
-		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
-		<MediaTemplate />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate />
 
-		<Feature Id="ProductFeature" Title="Setup" Level="1">
-			<ComponentGroupRef Id="ProductComponents" />
-		</Feature>
-	</Product>
+    <Feature Id="ProductFeature" Title="Setup" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+  </Product>
 
-	<Fragment>
-		<Directory Id="TARGETDIR" Name="SourceDir">
-			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLFOLDER" Name="Setup" />
-			</Directory>
-		</Directory>
-	</Fragment>
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <!-- Architecture-specific installation directories -->
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER_x64" Name="Setup_x64" />
+        <Directory Id="INSTALLFOLDER_x86" Name="Setup_x86" />
+      </Directory>
+    </Directory>
+  </Fragment>
 
-	<Fragment>
-		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
-			<!-- <Component Id="ProductComponent"> -->
-				<!-- TODO: Insert files, registry keys, and other resources here. -->
-			<!-- </Component> -->
-		</ComponentGroup>
-	</Fragment>
+  <Fragment>
+    <!-- Components for x64 build -->
+    <ComponentGroup Id="ProductComponents_x64" Directory="INSTALLFOLDER_x64">
+      <!-- Add files specific to x64 build -->
+    </ComponentGroup>
+
+    <!-- Components for x86 build -->
+    <ComponentGroup Id="ProductComponents_x86" Directory="INSTALLFOLDER_x86">
+      <!-- Add files specific to x86 build -->
+    </ComponentGroup>
+  </Fragment>
 </Wix>
