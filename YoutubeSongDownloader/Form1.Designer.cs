@@ -278,6 +278,7 @@
             FolderSelectButton.Text = "Choose Output Folder";
             FolderSelectButton.TextAlign = ContentAlignment.MiddleRight;
             FolderSelectButton.UseVisualStyleBackColor = true;
+            FolderSelectButton.Click += FolderSelectButton_Click;
             // 
             // imageList1
             // 

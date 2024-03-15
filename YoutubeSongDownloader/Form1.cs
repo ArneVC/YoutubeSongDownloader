@@ -70,7 +70,7 @@ namespace YoutubeSongDownloader
                 ChangeAppState(AppState.Error);
             }
             else
-            {                
+            {
                 TitleTextBox.Text = selectedVideo.Title;
                 ArtistTextBox.Text = selectedVideo.Author.ChannelTitle;
                 selectedImage = await ImageParser.GetImageFromThumbnailList(selectedVideo.Thumbnails);
@@ -94,6 +94,18 @@ namespace YoutubeSongDownloader
                 LabelUrl.Text = "Youtube Url";
             }
         }
+        private void FolderSelectButton_Click(object sender, EventArgs e)
+        {
+            using (var fbd = new FolderBrowserDialog())
+            {
+                DialogResult result = fbd.ShowDialog();
+
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+                {
+                    Debug.WriteLine(fbd.SelectedPath);
+                }
+            }
+        }
         private void SquareAlbumCoverRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             if (SquareAlbumCoverRadioButton.Checked == true)
@@ -110,7 +122,7 @@ namespace YoutubeSongDownloader
             DownloadStateLabel.Text = "downloading...";
             DownloadStateLabel.ForeColor = Color.Orange;
             Image? finalAlbumCoverImage = null;
-            if(SquareAlbumCoverRadioButton.Checked == true)
+            if (SquareAlbumCoverRadioButton.Checked == true)
             {
                 finalAlbumCoverImage = fullAlbumCoverImage;
             }
@@ -165,6 +177,7 @@ namespace YoutubeSongDownloader
             textBox1.Enabled = state;
             RadioButtonSongName.Enabled = state;
             RadioButtonUrl.Enabled = state;
+            FolderSelectButton.Enabled = state;
         }
         private void SaveAudioToFile(byte[] audioBytes, string fileName, Image albumCover, string songTitle, string[] authors, string album, string outputFolder)
         {
