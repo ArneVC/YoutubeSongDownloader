@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             textBox1 = new TextBox();
             LabelUrl = new Label();
@@ -39,6 +40,7 @@
             PanelError = new Panel();
             ErrorLabel = new Label();
             PanelResult = new Panel();
+            DownloadStateLabel = new Label();
             FinalDownloadButton = new Button();
             AlbumTextBox = new TextBox();
             label3 = new Label();
@@ -49,7 +51,9 @@
             FullAlbumCoverRadioButton = new RadioButton();
             SquareAlbumCoverRadioButton = new RadioButton();
             AlbumCoverPictureBox = new PictureBox();
-            DownloadStateLabel = new Label();
+            FolderButtonLabel = new Label();
+            FolderSelectButton = new Button();
+            imageList1 = new ImageList(components);
             PanelLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LoadingGifPictureBox).BeginInit();
             PanelError.SuspendLayout();
@@ -164,6 +168,16 @@
             PanelResult.Size = new Size(776, 353);
             PanelResult.TabIndex = 6;
             // 
+            // DownloadStateLabel
+            // 
+            DownloadStateLabel.AutoSize = true;
+            DownloadStateLabel.ForeColor = Color.Red;
+            DownloadStateLabel.Location = new Point(316, 252);
+            DownloadStateLabel.Name = "DownloadStateLabel";
+            DownloadStateLabel.Size = new Size(26, 15);
+            DownloadStateLabel.TabIndex = 10;
+            DownloadStateLabel.Text = "test";
+            // 
             // FinalDownloadButton
             // 
             FinalDownloadButton.Location = new Point(316, 270);
@@ -254,21 +268,36 @@
             AlbumCoverPictureBox.TabIndex = 0;
             AlbumCoverPictureBox.TabStop = false;
             // 
-            // DownloadStateLabel
+            // FolderButtonLabel
             // 
-            DownloadStateLabel.AutoSize = true;
-            DownloadStateLabel.ForeColor = Color.Red;
-            DownloadStateLabel.Location = new Point(316, 252);
-            DownloadStateLabel.Name = "DownloadStateLabel";
-            DownloadStateLabel.Size = new Size(26, 15);
-            DownloadStateLabel.TabIndex = 10;
-            DownloadStateLabel.Text = "test";
+            FolderButtonLabel.AutoSize = true;
+            FolderButtonLabel.Location = new Point(178, 9);
+            FolderButtonLabel.Name = "FolderButtonLabel";
+            FolderButtonLabel.Size = new Size(81, 15);
+            FolderButtonLabel.TabIndex = 7;
+            FolderButtonLabel.Text = "Output Folder";
+            // 
+            // FolderSelectButton
+            // 
+            FolderSelectButton.Location = new Point(265, 5);
+            FolderSelectButton.Name = "FolderSelectButton";
+            FolderSelectButton.Size = new Size(29, 23);
+            FolderSelectButton.TabIndex = 8;
+            FolderSelectButton.UseVisualStyleBackColor = true;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(16, 16);
+            imageList1.TransparentColor = Color.Transparent;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(FolderSelectButton);
+            Controls.Add(FolderButtonLabel);
             Controls.Add(RadioButtonSongName);
             Controls.Add(RadioButtonUrl);
             Controls.Add(ButtonDownload);
@@ -317,5 +346,8 @@
         private TextBox AlbumTextBox;
         private Button FinalDownloadButton;
         private Label DownloadStateLabel;
+        private Label FolderButtonLabel;
+        private Button FolderSelectButton;
+        private ImageList imageList1;
     }
 }
