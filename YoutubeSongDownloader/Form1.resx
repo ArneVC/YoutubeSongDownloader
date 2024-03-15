@@ -2128,6 +2128,15 @@
         YrF7AQEAOw==
 </value>
   </data>
+  <data name="FolderSelectButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAABGdBTUEAALGPC/xhBQAAANtJREFUKFNj
+        +D5L7P3PWSJ/Qfj7TLF/n6ZL3H/UI2bvXuDDgAsz/NoZ9f/H/gIU/HVPzpWvO5NmY8Nv14d1Mvy8vfb/
+        r4e7wPjHva3/Qfz/16b+/3+h4///s03//5+u+f//ZMX//ydKIPhw5n8GsAIQvtwPUQhTjK7hWD5YA0QT
+        SDG6BnTFMA0Hk///3xcN1ISuGJvpIMVQDaAwYCDkFJhiMN4V9P/XlgCgJgJOgSkG4+1e//9tdv7HAFaM
+        wylwDUDFMA1gTV93JH4CuROOgdbD8I+1Thj40xKL9wCn3YX36eUrBwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

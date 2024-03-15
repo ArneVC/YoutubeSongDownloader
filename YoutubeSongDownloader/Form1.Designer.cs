@@ -51,7 +51,6 @@
             FullAlbumCoverRadioButton = new RadioButton();
             SquareAlbumCoverRadioButton = new RadioButton();
             AlbumCoverPictureBox = new PictureBox();
-            FolderButtonLabel = new Label();
             FolderSelectButton = new Button();
             imageList1 = new ImageList(components);
             PanelLoading.SuspendLayout();
@@ -268,21 +267,16 @@
             AlbumCoverPictureBox.TabIndex = 0;
             AlbumCoverPictureBox.TabStop = false;
             // 
-            // FolderButtonLabel
-            // 
-            FolderButtonLabel.AutoSize = true;
-            FolderButtonLabel.Location = new Point(178, 9);
-            FolderButtonLabel.Name = "FolderButtonLabel";
-            FolderButtonLabel.Size = new Size(81, 15);
-            FolderButtonLabel.TabIndex = 7;
-            FolderButtonLabel.Text = "Output Folder";
-            // 
             // FolderSelectButton
             // 
-            FolderSelectButton.Location = new Point(265, 5);
+            FolderSelectButton.Image = (Image)resources.GetObject("FolderSelectButton.Image");
+            FolderSelectButton.ImageAlign = ContentAlignment.MiddleLeft;
+            FolderSelectButton.Location = new Point(362, 0);
             FolderSelectButton.Name = "FolderSelectButton";
-            FolderSelectButton.Size = new Size(29, 23);
+            FolderSelectButton.Size = new Size(145, 23);
             FolderSelectButton.TabIndex = 8;
+            FolderSelectButton.Text = "Choose Output Folder";
+            FolderSelectButton.TextAlign = ContentAlignment.MiddleRight;
             FolderSelectButton.UseVisualStyleBackColor = true;
             // 
             // imageList1
@@ -297,7 +291,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(FolderSelectButton);
-            Controls.Add(FolderButtonLabel);
             Controls.Add(RadioButtonSongName);
             Controls.Add(RadioButtonUrl);
             Controls.Add(ButtonDownload);
@@ -346,7 +339,6 @@
         private TextBox AlbumTextBox;
         private Button FinalDownloadButton;
         private Label DownloadStateLabel;
-        private Label FolderButtonLabel;
         private Button FolderSelectButton;
         private ImageList imageList1;
     }
