@@ -98,6 +98,7 @@ namespace YoutubeSongDownloader
         {
             using (var fbd = new FolderBrowserDialog())
             {
+                fbd.SelectedPath = outputFolderPath;
                 DialogResult result = fbd.ShowDialog();
 
                 if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
