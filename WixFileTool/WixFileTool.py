@@ -18,7 +18,7 @@ for file in files:
 actualLines = []
   
 for filepath in filePaths:
-    actualLines.append("<File Source=\"" + filepath + "/>\n")
+    actualLines.append("<File Source=\"" + filepath + "\"/>\n")
     
 file = open('filepaths.output', 'w+')
 file.writelines(actualLines)
