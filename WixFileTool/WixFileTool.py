@@ -14,6 +14,11 @@ for file in files:
         subDirectoryFiles = os.listdir(subDirectory)
         for subDirectoryFile in subDirectoryFiles:
             filePaths.append(relativePathFromWixFileToBuildFolder + file + "\\" + subDirectoryFile)
-        
+
+actualLines = []
+  
 for filepath in filePaths:
-    print(filepath)
+    actualLines.append("<File Source=\"" + filepath + "/>")
+    
+file = open('filepaths.output', 'w+')
+file.writelines(actualLines)
