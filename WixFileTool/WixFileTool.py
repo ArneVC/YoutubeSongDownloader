@@ -40,7 +40,7 @@ actualLines = []
   
 for filepath in filePaths:
     entry = ""
-    entry += "<Component Id=\"Component_x" + windowsNumber + "\"" + format_filename(filepath) + "\" Guid=\"*\">\n"
+    entry += "<Component Id=\"" + format_filename(filepath) + "\" Guid=\"*\">\n"
     entry += "    <File Source=\"" + filepath + "\"/>\n"
     entry += "</Component>\n"
     actualLines.append(entry)
