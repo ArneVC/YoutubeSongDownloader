@@ -24,9 +24,18 @@ namespace YoutubeSongDownloader.Data.Config
         }
         public static ProgramConfig ReadConfigFile()
         {
-            string json = File.ReadAllText(configFilePath);
-            ProgramConfig savedConfig = JsonConvert.DeserializeObject<ProgramConfig>(json);
-            return savedConfig;
+            try
+            {
+                string json = File.ReadAllText(configFilePath);
+                ProgramConfig savedConfig = JsonConvert.DeserializeObject<ProgramConfig>(json);
+                return savedConfig;
+            }
+            catch
+            {
+                DeleteConfigFileIfItExists();
+                CreateConfigFileIfItDoesntExist();
+                return new ProgramConfig(KnownFolders.GetPath(KnownFolder.Downloads));
+            }
         }
         public static string ChangeOutPutFolderFilePath(string newFilePath)
         {
@@ -36,6 +45,13 @@ namespace YoutubeSongDownloader.Data.Config
             CreateConfigFileIfItDoesntExist();
             File.WriteAllText(configFilePath, json);
             return newFilePath;
+        }
+        private static void DeleteConfigFileIfItExists()
+        {
+            if (File.Exists(configFilePath))
+            {
+                File.Delete(configFilePath);
+            }
         }
     }
 }
