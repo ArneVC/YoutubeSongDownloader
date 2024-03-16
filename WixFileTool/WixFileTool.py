@@ -1,5 +1,12 @@
 import os
 
+def format_filename(file_path):
+    folder, filename = os.path.split(file_path)
+    filename_without_extension, extension = os.path.splitext(filename)
+    folder_name = os.path.basename(folder)
+    formatted_name = f"{folder_name}_{filename_without_extension}{extension}"    
+    return formatted_name
+
 windowsNumber = input ("windows number: ")
 sourcedirectory = ""
 relativePathFromWixFileToBuildFolder = ""
@@ -33,7 +40,7 @@ actualLines = []
   
 for filepath in filePaths:
     entry = ""
-    entry += "<Component Id=\"Component_x" + windowsNumber + "_Accessibility\" Guid=\"*\">\n"
+    entry += "<Component Id=\"Component_x" + windowsNumber + "\"" + format_filename(filepath) + "\" Guid=\"*\">\n"
     entry += "    <File Source=\"" + filepath + "\"/>\n"
     entry += "</Component>\n"
     actualLines.append(entry)
