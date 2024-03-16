@@ -27,965 +27,2869 @@
 
   <Fragment>
     <ComponentGroup Id="ProductComponents_x64" Directory="INSTALLFOLDER_x64">
-      <Component Id="Component_x64" Guid="7daf4e55-7c2d-4b23-bf7e-c4f2807b9217">
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Accessibility.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\AngleSharp.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\clretwrc.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\clrgc.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\clrjit.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\coreclr.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\createdump.exe"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\cs\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\D3DCompiler_47_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\de\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\DirectWriteForwarder.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\es\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\fr\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\hostfxr.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\hostpolicy.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\it\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ja\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ko\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.CSharp.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.DiaSymReader.Native.amd64.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.VisualBasic.Core.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.VisualBasic.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.VisualBasic.Forms.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.Win32.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.Win32.Registry.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.Win32.Registry.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Microsoft.Win32.SystemEvents.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\mscordaccore.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\mscordaccore_amd64_amd64_8.0.224.6711.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\mscordbi.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\mscorlib.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\mscorrc.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\msquic.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.Asio.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.Core.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.Midi.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.Wasapi.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.WinForms.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NAudio.WinMM.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\netstandard.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\Newtonsoft.Json.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\NReco.VideoConverter.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PenImc_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pl\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationCore.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework-SystemCore.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework-SystemData.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework-SystemDrawing.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework-SystemXml.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework-SystemXmlLinq.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.Aero.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.Aero2.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.AeroLite.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.Classic.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.Luna.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationFramework.Royale.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationNative_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\PresentationUI.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\pt-BR\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ReachFramework.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\ru\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\SixLabors.ImageSharp.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.AppContext.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Buffers.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.CodeDom.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Collections.Concurrent.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Collections.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Collections.Immutable.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Collections.NonGeneric.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Collections.Specialized.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ComponentModel.Annotations.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ComponentModel.DataAnnotations.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ComponentModel.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ComponentModel.EventBasedAsync.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ComponentModel.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ComponentModel.TypeConverter.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Configuration.ConfigurationManager.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Configuration.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Console.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Core.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Data.Common.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Data.DataSetExtensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Data.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Design.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.Contracts.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.Debug.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.DiagnosticSource.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.EventLog.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.EventLog.Messages.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.FileVersionInfo.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.PerformanceCounter.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.Process.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.StackTrace.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.TextWriterTraceListener.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.Tools.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.TraceSource.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Diagnostics.Tracing.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.DirectoryServices.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Drawing.Common.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Drawing.Design.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Drawing.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Drawing.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Dynamic.Runtime.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Formats.Asn1.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Formats.Tar.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Globalization.Calendars.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Globalization.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Globalization.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Compression.Brotli.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Compression.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Compression.FileSystem.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Compression.Native.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Compression.ZipFile.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.FileSystem.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.FileSystem.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.FileSystem.DriveInfo.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.FileSystem.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.FileSystem.Watcher.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.IsolatedStorage.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.MemoryMappedFiles.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Packaging.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Pipes.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.Pipes.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.IO.UnmanagedMemoryStream.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Linq.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Linq.Expressions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Linq.Parallel.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Linq.Queryable.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Memory.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Http.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Http.Json.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.HttpListener.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Mail.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.NameResolution.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.NetworkInformation.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Ping.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Quic.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Requests.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Security.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.ServicePoint.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.Sockets.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.WebClient.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.WebHeaderCollection.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.WebProxy.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.WebSockets.Client.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Net.WebSockets.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Numerics.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Numerics.Vectors.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ObjectModel.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Printing.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Private.CoreLib.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Private.DataContractSerialization.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Private.Uri.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Private.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Private.Xml.Linq.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.DispatchProxy.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.Emit.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.Emit.ILGeneration.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.Emit.Lightweight.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.Metadata.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Reflection.TypeExtensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Resources.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Resources.Reader.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Resources.ResourceManager.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Resources.Writer.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.CompilerServices.Unsafe.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.CompilerServices.VisualC.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Handles.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.InteropServices.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.InteropServices.JavaScript.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Intrinsics.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Loader.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Numerics.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Serialization.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Serialization.Formatters.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Serialization.Json.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Serialization.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Runtime.Serialization.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Claims.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Algorithms.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Cng.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Csp.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Encoding.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.OpenSsl.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Pkcs.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.ProtectedData.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.X509Certificates.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Cryptography.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Permissions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Principal.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.Principal.Windows.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Security.SecureString.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ServiceModel.Web.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ServiceProcess.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Text.Encoding.CodePages.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Text.Encoding.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Text.Encoding.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Text.Encodings.Web.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Text.Json.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Text.RegularExpressions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Channels.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Overlapped.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Tasks.Dataflow.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Tasks.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Tasks.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Tasks.Parallel.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Thread.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.ThreadPool.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Threading.Timer.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Transactions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Transactions.Local.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.ValueTuple.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Web.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Web.HttpUtility.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Controls.Ribbon.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Forms.Design.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Forms.Design.Editors.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Forms.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Forms.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Input.Manipulations.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Windows.Presentation.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xaml.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.Linq.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.ReaderWriter.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.Serialization.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.XDocument.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.XmlDocument.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.XmlSerializer.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.XPath.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\System.Xml.XPath.XDocument.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\TagLibSharp.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\tr\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\UIAutomationClient.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\UIAutomationClientSideProviders.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\UIAutomationProvider.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\UIAutomationTypes.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\vcruntime140_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\WindowsBase.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\WindowsFormsIntegration.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\wpfgfx_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\YoutubeExplode.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\YoutubeSongDownloader.deps.json"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\YoutubeSongDownloader.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\YoutubeSongDownloader.exe"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\YoutubeSongDownloader.pdb"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\YoutubeSongDownloader.runtimeconfig.json"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hans\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x64_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\zh-Hant\WindowsFormsIntegration.resources.dll"/>
       </Component>
     </ComponentGroup>
     
     <ComponentGroup Id="ProductComponents_x86" Directory="INSTALLFOLDER_x86">
-      <Component Id="Component_x86" Guid="7b9eef44-b342-4272-9db2-7a9c17fc0f24">
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Accessibility.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\AngleSharp.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\clretwrc.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\clrgc.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\clrjit.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\coreclr.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\createdump.exe"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\cs\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\D3DCompiler_47_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\de\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\DirectWriteForwarder.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\es\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\fr\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\hostfxr.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\hostpolicy.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\it\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ja\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ko\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.CSharp.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.DiaSymReader.Native.x86.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.VisualBasic.Core.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.VisualBasic.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.VisualBasic.Forms.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.Win32.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.Win32.Registry.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.Win32.Registry.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Microsoft.Win32.SystemEvents.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\mscordaccore.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\mscordaccore_x86_x86_8.0.224.6711.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\mscordbi.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\mscorlib.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\mscorrc.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\msquic.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.Asio.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.Core.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.Midi.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.Wasapi.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.WinForms.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NAudio.WinMM.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\netstandard.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\Newtonsoft.Json.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\NReco.VideoConverter.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PenImc_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pl\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationCore.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework-SystemCore.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework-SystemData.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework-SystemDrawing.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework-SystemXml.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework-SystemXmlLinq.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.Aero.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.Aero2.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.AeroLite.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.Classic.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.Luna.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationFramework.Royale.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationNative_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\PresentationUI.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\pt-BR\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ReachFramework.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\ru\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\SixLabors.ImageSharp.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.AppContext.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Buffers.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.CodeDom.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Collections.Concurrent.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Collections.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Collections.Immutable.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Collections.NonGeneric.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Collections.Specialized.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ComponentModel.Annotations.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ComponentModel.DataAnnotations.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ComponentModel.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ComponentModel.EventBasedAsync.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ComponentModel.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ComponentModel.TypeConverter.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Configuration.ConfigurationManager.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Configuration.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Console.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Core.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Data.Common.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Data.DataSetExtensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Data.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Design.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.Contracts.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.Debug.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.DiagnosticSource.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.EventLog.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.EventLog.Messages.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.FileVersionInfo.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.PerformanceCounter.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.Process.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.StackTrace.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.TextWriterTraceListener.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.Tools.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.TraceSource.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Diagnostics.Tracing.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.DirectoryServices.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Drawing.Common.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Drawing.Design.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Drawing.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Drawing.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Dynamic.Runtime.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Formats.Asn1.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Formats.Tar.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Globalization.Calendars.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Globalization.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Globalization.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Compression.Brotli.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Compression.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Compression.FileSystem.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Compression.Native.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Compression.ZipFile.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.FileSystem.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.FileSystem.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.FileSystem.DriveInfo.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.FileSystem.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.FileSystem.Watcher.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.IsolatedStorage.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.MemoryMappedFiles.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Packaging.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Pipes.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.Pipes.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.IO.UnmanagedMemoryStream.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Linq.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Linq.Expressions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Linq.Parallel.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Linq.Queryable.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Memory.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Http.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Http.Json.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.HttpListener.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Mail.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.NameResolution.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.NetworkInformation.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Ping.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Quic.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Requests.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Security.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.ServicePoint.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.Sockets.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.WebClient.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.WebHeaderCollection.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.WebProxy.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.WebSockets.Client.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Net.WebSockets.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Numerics.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Numerics.Vectors.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ObjectModel.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Printing.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Private.CoreLib.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Private.DataContractSerialization.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Private.Uri.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Private.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Private.Xml.Linq.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.DispatchProxy.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.Emit.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.Emit.ILGeneration.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.Emit.Lightweight.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.Metadata.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Reflection.TypeExtensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Resources.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Resources.Reader.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Resources.ResourceManager.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Resources.Writer.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.CompilerServices.Unsafe.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.CompilerServices.VisualC.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Handles.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.InteropServices.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.InteropServices.JavaScript.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.InteropServices.RuntimeInformation.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Intrinsics.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Loader.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Numerics.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Serialization.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Serialization.Formatters.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Serialization.Json.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Serialization.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Runtime.Serialization.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Claims.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Algorithms.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Cng.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Csp.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Encoding.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.OpenSsl.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Pkcs.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.ProtectedData.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.X509Certificates.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Cryptography.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Permissions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Principal.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.Principal.Windows.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Security.SecureString.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ServiceModel.Web.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ServiceProcess.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Text.Encoding.CodePages.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Text.Encoding.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Text.Encoding.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Text.Encodings.Web.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Text.Json.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Text.RegularExpressions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.AccessControl.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Channels.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Overlapped.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Tasks.Dataflow.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Tasks.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Tasks.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Tasks.Parallel.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Thread.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.ThreadPool.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Threading.Timer.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Transactions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Transactions.Local.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.ValueTuple.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Web.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Web.HttpUtility.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Controls.Ribbon.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Extensions.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Forms.Design.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Forms.Design.Editors.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Forms.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Forms.Primitives.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Input.Manipulations.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Windows.Presentation.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xaml.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.Linq.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.ReaderWriter.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.Serialization.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.XDocument.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.XmlDocument.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.XmlSerializer.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.XPath.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\System.Xml.XPath.XDocument.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\TagLibSharp.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\tr\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\UIAutomationClient.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\UIAutomationClientSideProviders.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\UIAutomationProvider.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\UIAutomationTypes.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\vcruntime140_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\WindowsBase.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\WindowsFormsIntegration.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\wpfgfx_cor3.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\YoutubeExplode.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\YoutubeSongDownloader.deps.json"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\YoutubeSongDownloader.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\YoutubeSongDownloader.exe"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\YoutubeSongDownloader.pdb"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\YoutubeSongDownloader.runtimeconfig.json"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hans\WindowsFormsIntegration.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\PresentationCore.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\PresentationFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\PresentationUI.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\ReachFramework.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\System.Windows.Controls.Ribbon.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\System.Windows.Forms.Design.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\System.Windows.Forms.Primitives.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\System.Windows.Forms.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\System.Windows.Input.Manipulations.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\System.Xaml.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\UIAutomationClient.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\UIAutomationClientSideProviders.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\UIAutomationProvider.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\UIAutomationTypes.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\WindowsBase.resources.dll"/>
+      </Component>
+      <Component Id="Component_x86_Accessibility" Guid="*">
         <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\zh-Hant\WindowsFormsIntegration.resources.dll"/>
       </Component>
     </ComponentGroup>
