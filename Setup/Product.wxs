@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-  <Product Id="*" Name="Setup" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="6def6eab-c8c4-4fad-a7ec-13a5a0e882fb">
+  <Product Id="*" Name="Setup" Language="1033" Version="1.0.0.0" Manufacturer="Arne Van Campenhout" UpgradeCode="6def6eab-c8c4-4fad-a7ec-13a5a0e882fb">
     <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
     <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
@@ -13,23 +13,29 @@
 
   <Fragment>
     <Directory Id="TARGETDIR" Name="SourceDir">
-      <!-- Architecture-specific installation directories -->
       <Directory Id="ProgramFilesFolder">
-        <Directory Id="INSTALLFOLDER_x64" Name="Setup_x64" />
-        <Directory Id="INSTALLFOLDER_x86" Name="Setup_x86" />
+        <Directory Id="INSTALLFOLDER" Name="Setup">
+          <?if $(var.Platform) = x64 ?>
+          <Directory Id="INSTALLFOLDER_x64" Name="x64" />
+          <?else ?>
+          <Directory Id="INSTALLFOLDER_x86" Name="x86" />
+          <?endif ?>
+        </Directory>
       </Directory>
     </Directory>
   </Fragment>
 
   <Fragment>
-    <!-- Components for x64 build -->
     <ComponentGroup Id="ProductComponents_x64" Directory="INSTALLFOLDER_x64">
-      <!-- Add files specific to x64 build -->
+      <Component Id="Component_x64" Guid="7daf4e55-7c2d-4b23-bf7e-c4f2807b9217">
+        <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x64\*" />
+      </Component>
     </ComponentGroup>
-
-    <!-- Components for x86 build -->
+    
     <ComponentGroup Id="ProductComponents_x86" Directory="INSTALLFOLDER_x86">
-      <!-- Add files specific to x86 build -->
+      <Component Id="Component_x86" Guid="7b9eef44-b342-4272-9db2-7a9c17fc0f24">
+        <File Source="..\YoutubeSongDownloader\bin\Release\net8.0-windows\publish\win-x86\*" />
+      </Component>
     </ComponentGroup>
   </Fragment>
 </Wix>
