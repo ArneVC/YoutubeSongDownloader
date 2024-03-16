@@ -1,7 +1,21 @@
 import os
 
-sourcedirectory = input("define build directory: ")
-relativePathFromWixFileToBuildFolder = input("define relative path from wix directory to build directory: ") + "\\"
+windowsNumber = input ("windows number: ")
+sourcedirectory = ""
+relativePathFromWixFileToBuildFolder = ""
+filename = ""
+if windowsNumber == "86":
+    sourcedirectory = "..\\YoutubeSongDownloader\\bin\\Release\\net8.0-windows\\publish\\win-x86\\"
+    relativePathFromWixFileToBuildFolder = "..\\YoutubeSongDownloader\\bin\\Release\\net8.0-windows\\publish\\win-x86\\"
+    filename = "x86.output"
+elif windowsNumber == "64":
+    sourcedirectory = "..\\YoutubeSongDownloader\\bin\\Release\\net8.0-windows\\publish\\win-x64\\"
+    relativePathFromWixFileToBuildFolder = "..\\YoutubeSongDownloader\\bin\\Release\\net8.0-windows\\publish\\win-x64\\"
+    filename = "x64.output"
+else:
+    print("input 64 for 64 bit windows or 86 for 32 bit windows")
+    quit()
+
 files = os.listdir(sourcedirectory)
 filePaths = []
 for file in files:
@@ -18,9 +32,13 @@ for file in files:
 actualLines = []
   
 for filepath in filePaths:
-    actualLines.append("<File Source=\"" + filepath + "\"/>\n")
+    entry = ""
+    entry += "<Component Id=\"Component_x" + windowsNumber + "_Accessibility\" Guid=\"*\">\n"
+    entry += "    <File Source=\"" + filepath + "\"/>\n"
+    entry += "</Component>\n"
+    actualLines.append(entry)
     
-file = open('filepaths.output', 'w+')
+file = open(filename, 'w+')
 file.writelines(actualLines)
 
-print("wrote wix file entry lines to filepaths.output")
+print("wrote wix file entry lines to " + filename)
