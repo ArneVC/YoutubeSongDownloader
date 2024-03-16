@@ -5,6 +5,7 @@ def format_filename(file_path):
     filename_without_extension, extension = os.path.splitext(filename)
     folder_name = os.path.basename(folder)
     formatted_name = f"{folder_name}_{filename_without_extension}{extension}"    
+    formatted_name = ''.join(c if c.isalnum() or c in ['_', '.'] else '_' for c in formatted_name)
     return formatted_name
 
 windowsNumber = input ("windows number: ")
