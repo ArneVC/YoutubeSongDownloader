@@ -1,7 +1,7 @@
 import os
 
-sourcedirectory = input("define source directory: ")
-relativePathFromWixFileToBuildFolder = input("define relative path from wix folder to build folder: ") + "\\"
+sourcedirectory = input("define build directory: ")
+relativePathFromWixFileToBuildFolder = input("define relative path from wix directory to build directory: ") + "\\"
 files = os.listdir(sourcedirectory)
 filePaths = []
 for file in files:
@@ -22,3 +22,5 @@ for filepath in filePaths:
     
 file = open('filepaths.output', 'w+')
 file.writelines(actualLines)
+
+print("wrote wix file entry lines to filepaths.output")
