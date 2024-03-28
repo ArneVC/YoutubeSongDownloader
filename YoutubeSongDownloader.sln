@@ -11,6 +11,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DebuggingScripts", "Debuggi
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WixFileTool", "WixFileTool\WixFileTool.pyproj", "{85826804-2D50-4BAA-BBC3-D27317D9D511}"
 EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SetupWinX64", "SetupWinX64\SetupWinX64.wixproj", "{66CD8979-9CE5-4ECB-B795-51324778CA15}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SetupWinX68", "SetupWinX68\SetupWinX68.wixproj", "{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,22 @@ Global
 		{85826804-2D50-4BAA-BBC3-D27317D9D511}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{85826804-2D50-4BAA-BBC3-D27317D9D511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85826804-2D50-4BAA-BBC3-D27317D9D511}.Release|x86.ActiveCfg = Release|Any CPU
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Debug|Any CPU.Build.0 = Debug|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Debug|x86.ActiveCfg = Debug|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Debug|x86.Build.0 = Debug|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Release|Any CPU.ActiveCfg = Release|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Release|Any CPU.Build.0 = Release|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Release|x86.ActiveCfg = Release|x86
+		{66CD8979-9CE5-4ECB-B795-51324778CA15}.Release|x86.Build.0 = Release|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Debug|Any CPU.Build.0 = Debug|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Debug|x86.ActiveCfg = Debug|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Debug|x86.Build.0 = Debug|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Release|Any CPU.ActiveCfg = Release|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Release|Any CPU.Build.0 = Release|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Release|x86.ActiveCfg = Release|x86
+		{68EFBAFC-1D59-4BC3-B55C-9ACD6548DEF6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
