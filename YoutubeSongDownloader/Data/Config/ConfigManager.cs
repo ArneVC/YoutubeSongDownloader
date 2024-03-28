@@ -9,49 +9,30 @@ namespace YoutubeSongDownloader.Data.Config
 {
     public static class ConfigManager
     {
-        private static string configFilePath = "./config.json";
         public static void CreateConfigFileIfItDoesntExist()
         {
-            if (!File.Exists(configFilePath))
+            if (string.IsNullOrEmpty(Properties.Settings.Default.ProgramConfig))
             {
-                using (StreamWriter writer = File.CreateText(configFilePath))
-                {
-                    ProgramConfig defaultConfig = new ProgramConfig(KnownFolders.GetPath(KnownFolder.Downloads));
-                    string json = JsonConvert.SerializeObject(defaultConfig);
-                    writer.Write(json);
-                }
+                ProgramConfig defaultConfig = new ProgramConfig(KnownFolders.GetPath(KnownFolder.Downloads));
+                string json = JsonConvert.SerializeObject(defaultConfig);
+                Properties.Settings.Default.ProgramConfig = json;
+                Properties.Settings.Default.Save();
             }
         }
         public static ProgramConfig ReadConfigFile()
         {
-            try
-            {
-                string json = File.ReadAllText(configFilePath);
-                ProgramConfig savedConfig = JsonConvert.DeserializeObject<ProgramConfig>(json);
-                return savedConfig;
-            }
-            catch
-            {
-                DeleteConfigFileIfItExists();
-                CreateConfigFileIfItDoesntExist();
-                return new ProgramConfig(KnownFolders.GetPath(KnownFolder.Downloads));
-            }
+            CreateConfigFileIfItDoesntExist();
+            string json = Properties.Settings.Default.ProgramConfig;
+            return JsonConvert.DeserializeObject<ProgramConfig>(json);
         }
-        public static string ChangeOutPutFolderFilePath(string newFilePath)
+        public static string ChangeOutputFolder(string newFolderPath)
         {
             ProgramConfig currentConfig = ReadConfigFile();
-            currentConfig.outputFolderPath = newFilePath;
+            currentConfig.outputFolderPath = newFolderPath;
             string json = JsonConvert.SerializeObject(currentConfig);
-            CreateConfigFileIfItDoesntExist();
-            File.WriteAllText(configFilePath, json);
-            return newFilePath;
-        }
-        private static void DeleteConfigFileIfItExists()
-        {
-            if (File.Exists(configFilePath))
-            {
-                File.Delete(configFilePath);
-            }
+            Properties.Settings.Default.ProgramConfig = json;
+            Properties.Settings.Default.Save();
+            return newFolderPath;
         }
     }
 }
