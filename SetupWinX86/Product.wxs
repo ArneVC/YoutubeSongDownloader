@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="SetupWinX86" Language="1033" Version="1.0.0.0" Manufacturer="Arne Van Campenhout" UpgradeCode="20b5eb40-a59f-4ce0-b7be-1ae0b8928aa0">
+	<Product Id="*" Name="YoutubeSongDownloader" Language="1033" Version="1.0.0.0" Manufacturer="Arne Van Campenhout" UpgradeCode="20b5eb40-a59f-4ce0-b7be-1ae0b8928aa0">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
